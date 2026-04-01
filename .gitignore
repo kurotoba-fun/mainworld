@@ -35,3 +35,4 @@ doc/
 # OS
 .DS_Store
 Thumbs.db
+_config_dev.yml
