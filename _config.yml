@@ -26,3 +26,11 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
