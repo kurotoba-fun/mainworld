@@ -27,6 +27,12 @@ a { color: #ffd7e1; text-decoration: none; }
 a:hover { color: white; }
 img { max-width: 100%; display: block; }
 
+.hero-banner {
+  width: 100%;
+  display: block;
+  margin-bottom: 24px;
+}
+
 .container {
   width: min(calc(100% - 32px), var(--max-width));
   margin: 0 auto;
