@@ -39,5 +39,44 @@ layout: default
     <section class="character-body prose">
       {{ content }}
     </section>
+
+    {% assign sorted_characters = site.characters | sort: 'order' %}
+    {% assign prev_character = null %}
+    {% assign next_character = null %}
+    {% assign previous_character = null %}
+    {% assign found_current = false %}
+
+    {% for character in sorted_characters %}
+      {% if found_current %}
+        {% assign next_character = character %}
+        {% break %}
+      {% endif %}
+
+      {% if character.url == page.url %}
+        {% assign prev_character = previous_character %}
+        {% assign found_current = true %}
+      {% endif %}
+
+      {% assign previous_character = character %}
+    {% endfor %}
+
+    {% if prev_character or next_character %}
+      <nav class="character-pagination">
+        <div class="container narrow">
+          <ul class="pagination-list">
+            {% if prev_character %}
+              <li class="pagination-item prev">
+                <a href="{{ prev_character.url | relative_url }}">← {{ prev_character.name }}</a>
+              </li>
+            {% endif %}
+            {% if next_character %}
+              <li class="pagination-item next">
+                <a href="{{ next_character.url | relative_url }}">{{ next_character.name }} →</a>
+              </li>
+            {% endif %}
+          </ul>
+        </div>
+      </nav>
+    {% endif %}
   </div>
 </article>
