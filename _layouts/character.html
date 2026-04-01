@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="character-detail">
+  <div class="container narrow">
+    <a class="back-link" href="{{ '/characters/' | relative_url }}">← キャラクター一覧に戻る</a>
+
+    <header class="character-hero">
+      <div class="character-hero-text">
+        <p class="character-role">{{ page.role }}</p>
+        <h1>{{ page.name }}</h1>
+        {% if page.ruby %}
+          <p class="character-ruby large">{{ page.ruby }}</p>
+        {% endif %}
+        {% if page.summary %}
+          <p class="lead">{{ page.summary }}</p>
+        {% endif %}
+      </div>
+      <div class="character-hero-media">
+        {% if page.image %}
+          <img src="{{ page.image | relative_url }}" alt="{{ page.name }}">
+        {% else %}
+          <div class="character-detail-placeholder">NO IMAGE</div>
+        {% endif %}
+      </div>
+    </header>
+
+    <section class="character-meta">
+      <dl>
+        {% if page.age %}<div><dt>年齢</dt><dd>{{ page.age }}</dd></div>{% endif %}
+        {% if page.height %}<div><dt>身長</dt><dd>{{ page.height }}</dd></div>{% endif %}
+        {% if page.position %}<div><dt>立場</dt><dd>{{ page.position }}</dd></div>{% endif %}
+        {% if page.weapon %}<div><dt>得意武器</dt><dd>{{ page.weapon }}</dd></div>{% endif %}
+        {% if page.combat %}<div><dt>戦闘</dt><dd>{{ page.combat }}</dd></div>{% endif %}
+      </dl>
+    </section>
+
+    <section class="character-body prose">
+      {{ content }}
+    </section>
+  </div>
+</article>

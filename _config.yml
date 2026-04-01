@@ -1,0 +1,28 @@
+title: 黒帳キャラクター集
+description: 黒帳のキャラクターと世界観をまとめたサイト
+lang: ja
+url: "https://kurotoba-fun.github.io"
+baseurl: "/mainworld"
+markdown: kramdown
+permalink: pretty
+
+collections:
+  characters:
+    output: true
+    permalink: /characters/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: character
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

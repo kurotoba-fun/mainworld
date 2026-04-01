@@ -1,0 +1,17 @@
+<article class="character-card">
+  <a class="character-card-link" href="{{ character.url | relative_url }}">
+    {% if character.image %}
+      <img class="character-card-image" src="{{ character.image | relative_url }}" alt="{{ character.name }}">
+    {% else %}
+      <div class="character-card-placeholder">NO IMAGE</div>
+    {% endif %}
+    <div class="character-card-body">
+      <p class="character-role">{{ character.role }}</p>
+      <h3>{{ character.name }}</h3>
+      {% if character.ruby %}
+        <p class="character-ruby">{{ character.ruby }}</p>
+      {% endif %}
+      <p>{{ character.summary }}</p>
+    </div>
+  </a>
+</article>

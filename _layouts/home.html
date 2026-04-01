@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="container narrow">
+    <p class="eyebrow">CHARACTER ARCHIVE</p>
+    <h1>{{ site.data.site.site_title }}</h1>
+    <p class="lead">{{ page.lead }}</p>
+    <div class="hero-actions">
+      <a class="button" href="{{ '/characters/' | relative_url }}">キャラクター一覧を見る</a>
+      {% include social-links.html %}
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="container narrow prose">
+    {{ content }}
+  </div>
+</section>
+
+<section class="page-section page-section-alt">
+  <div class="container narrow">
+    <h2>登場キャラクター</h2>
+    <div class="card-grid">
+      {% assign sorted_characters = site.characters | sort: 'order' %}
+      {% for character in sorted_characters limit: 6 %}
+        {% include character-card.html character=character %}
+      {% endfor %}
+    </div>
+    <p class="section-link"><a href="{{ '/characters/' | relative_url }}">すべてのキャラクターを見る →</a></p>
+  </div>
+</section>
