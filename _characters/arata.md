@@ -9,8 +9,8 @@ height: 182cm
 position: 黒帳の実働主力
 weapon: 全部
 combat: 近〜遠距離
-list_image: /assets/images/characters/arata_01_list43.jpg
-detail_image:
+list_image: /assets/images/characters/list43/arata_260104.webp
+detail_image: /assets/images/characters/detail45/arata_260104.webp
 ---
 
 荒っぽく豪胆な性格の戦闘狂。

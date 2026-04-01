@@ -8,8 +8,8 @@ age: 19歳
 height: 173cm
 position: 後方支援・狙撃担当
 combat: 中〜遠距離支援
-list_image: /assets/images/characters/shirabe_01_list43.JPG
-detail_image: /assets/images/characters/shirabe02_detail45.jpg
+list_image: /assets/images/characters/list43/shirabe_260104.webp
+detail_image: /assets/images/characters/detail45/shirabe02_260104.webp
 ---
 
 皮肉屋で生意気な態度が目立つ一方、狙撃・分析・語学など多方面で高い能力を持つ人物。

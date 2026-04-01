@@ -6,6 +6,8 @@ order: 5
 summary: 地下2階の管制フロアで情報処理を担う青年。任務ログや監視網を統合管理する黒帳の頭脳。
 age: 20歳前後
 position: 地下2階 管制フロア
+list_image: /assets/images/characters/list43/amagi_260104.webp
+detail_image: /assets/images/characters/detail45/amagi_260104.webp
 ---
 
 若くして情報処理の中枢を任される、黒帳の“脳”にあたる存在。
