@@ -5,7 +5,7 @@ layout: default
   <div class="container narrow">
     <p class="eyebrow">CHARACTER ARCHIVE</p>
     <h1 style="display: none;">{{ site.data.site.site_title }}</h1>
-    <img src="/assets/images/site/bunner.jpeg" alt="メインバナー" class="hero-banner">
+    <img src="{{ '/assets/images/site/bunner.jpeg' | relative_url }}" alt="メインバナー" class="hero-banner">
     <p class="lead">{{ page.lead }}</p>
     <div class="hero-actions">
       <a class="button" href="{{ '/characters/' | relative_url }}">キャラクター一覧を見る</a>
