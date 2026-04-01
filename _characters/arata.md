@@ -2,13 +2,15 @@
 name: 鍛炭 灼
 ruby: かすみ あらた
 role: エース級暗殺者
-order: 1
+order: 2
 summary: 黒帳の実働を担うエース級の暗殺者。近距離から遠距離まで対応できるオールラウンダー。
 age: 25歳
 height: 182cm
 position: 黒帳の実働主力
 weapon: 全部
 combat: 近〜遠距離
+list_image: /assets/images/characters/arata_01_list43.jpg
+detail_image:
 ---
 
 荒っぽく豪胆な性格の戦闘狂。

@@ -17,8 +17,9 @@ layout: default
         {% endif %}
       </div>
       <div class="character-hero-media">
-        {% if page.image %}
-          <img src="{{ page.image | relative_url }}" alt="{{ page.name }}">
+        {% assign detail_image = page.detail_image | default: page.image %}
+        {% if detail_image %}
+          <img src="{{ detail_image | relative_url }}" alt="{{ page.name }}">
         {% else %}
           <div class="character-detail-placeholder">NO IMAGE</div>
         {% endif %}

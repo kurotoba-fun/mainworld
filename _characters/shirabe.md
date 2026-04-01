@@ -2,12 +2,14 @@
 name: 烏丸 調
 ruby: からすま しらべ
 role: 凄腕スナイパー
-order: 2
+order: 1
 summary: 冷静な観察眼と高い射撃技術を持つスナイパー。分析力や座学能力にも優れる合理主義者。
 age: 19歳
 height: 173cm
 position: 後方支援・狙撃担当
 combat: 中〜遠距離支援
+list_image: /assets/images/characters/shirabe_01_list43.JPG
+detail_image: /assets/images/characters/shirabe02_detail45.jpg
 ---
 
 皮肉屋で生意気な態度が目立つ一方、狙撃・分析・語学など多方面で高い能力を持つ人物。

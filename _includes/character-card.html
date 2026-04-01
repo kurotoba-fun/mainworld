@@ -1,7 +1,8 @@
 <article class="character-card">
   <a class="character-card-link" href="{{ character.url | relative_url }}">
-    {% if character.image %}
-      <img class="character-card-image" src="{{ character.image | relative_url }}" alt="{{ character.name }}">
+    {% assign card_image = character.list_image | default: character.image %}
+    {% if card_image %}
+      <img class="character-card-image" src="{{ card_image | relative_url }}" alt="{{ character.name }}">
     {% else %}
       <div class="character-card-placeholder">NO IMAGE</div>
     {% endif %}
