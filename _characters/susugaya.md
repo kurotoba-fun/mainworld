@@ -6,8 +6,8 @@ order: 6
 summary: 闇市に店を構える黒帳お抱えの情報屋。公的記録から裏社会の機密まで掘れない情報はないと噂される危うい存在。
 age: 29歳（自称）
 position: 闇市
-list_image: /assets/images/characters/list43/susugaya_260401.webp
-detail_image: /assets/images/characters/detail45/susugaya_260401.webp
+list_image: /assets/images/characters/list43/susugaya260204.webp
+detail_image: /assets/images/characters/detail45/susugaya260204.webp
 ---
 
 闇市に店を構える、黒帳お抱えの情報屋。  
