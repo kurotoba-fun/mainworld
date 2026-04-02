@@ -6,7 +6,7 @@ order: 9
 summary: 10階で情報管理と連絡調整を担う実務担当。柔らかな口調の裏で、各フロアを回す切れ者として機能する苦労人。
 age: 33歳
 position: 10階 ボス側近
-list_image: /assets/images/characters/list43/shirose_260204.webp
+list_image: /assets/images/characters/list43/shirose_2602042305.webp
 detail_image: /assets/images/characters/detail45/shirose_260204.webp
 ---
 
