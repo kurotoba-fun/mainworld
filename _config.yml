@@ -20,6 +20,9 @@ defaults:
       type: "characters"
     values:
       layout: character
+      list_path: /characters/
+      theme: mainworld
+
   - scope:
       path: ""
       type: "academy_characters"
@@ -27,6 +30,7 @@ defaults:
       layout: character
       list_path: /academy/characters/
       theme: academy
+      
   - scope:
       path: ""
     values:
