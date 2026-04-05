@@ -355,3 +355,33 @@ img { max-width: 100%; display: block; }
     justify-content: center;
   }
 }
+
+
+
+/* ここから学パロよう */
+
+body.theme-academy {
+  --bg: #181827;
+  --bg-alt: #212338;
+  --panel: #2a2e46;
+  --line: #434a67;
+  --text: #f7f7fb;
+  --muted: #c9cee0;
+  --accent: #9d6bc6;
+  --accent-soft: #c59be4;
+  background: linear-gradient(180deg, #171827 0%, #242842 100%);
+}
+
+body.theme-academy a {
+  color: #f0ddff;
+}
+
+body.theme-academy .site-header {
+  background: rgba(24, 24, 39, 0.84);
+}
+
+body.theme-academy .character-card,
+body.theme-academy .character-meta,
+body.theme-academy .pagination-item a {
+  background: rgba(255,255,255,0.06);
+}

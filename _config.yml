@@ -10,6 +10,9 @@ collections:
   characters:
     output: true
     permalink: /characters/:name/
+  academy_characters:
+    output: true
+    permalink: /academy/characters/:name/
 
 defaults:
   - scope:
@@ -17,6 +20,13 @@ defaults:
       type: "characters"
     values:
       layout: character
+  - scope:
+      path: ""
+      type: "academy_characters"
+    values:
+      layout: character
+      list_path: /academy/characters/
+      theme: academy
   - scope:
       path: ""
     values:
