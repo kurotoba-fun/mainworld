@@ -2,13 +2,13 @@
   <a class="character-card-link" href="{{ character.url | relative_url }}">
     {% assign card_image = character.list_image | default: character.image %}
     {% if card_image %}
-      <img class="character-card-image" src="{{ card_image | relative_url }}" alt="{{ character.name }}">
+      <img class="character-card-image" src="{{ card_image | relative_url }}" alt="{{ character.title }}">
     {% else %}
       <div class="character-card-placeholder">NO IMAGE</div>
     {% endif %}
     <div class="character-card-body">
       <p class="character-role">{{ character.role }}</p>
-      <h3>{{ character.name }}</h3>
+      <h3>{{ character.title }}</h3>
       {% if character.ruby %}
         <p class="character-ruby">{{ character.ruby }}</p>
       {% endif %}
