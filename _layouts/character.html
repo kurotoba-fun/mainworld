@@ -3,12 +3,12 @@ layout: default
 ---
 <article class="character-detail">
   <div class="container narrow">
-    <a class="back-link" href="{{ '/characters/' | relative_url }}">← キャラクター一覧に戻る</a>
+    <a class="back-link" href="{{ page.list_path | relative_url }}">← キャラクター一覧に戻る</a>
 
     <header class="character-hero">
       <div class="character-hero-text">
         <p class="character-role">{{ page.role }}</p>
-        <h1>{{ page.name }}</h1>
+        <h1>{{ page.title }}</h1>
         {% if page.ruby %}
           <p class="character-ruby large">{{ page.ruby }}</p>
         {% endif %}
@@ -19,7 +19,7 @@ layout: default
       <div class="character-hero-media">
         {% assign detail_image = page.detail_image | default: page.image %}
         {% if detail_image %}
-          <img src="{{ detail_image | relative_url }}" alt="{{ page.name }}">
+          <img src="{{ detail_image | relative_url }}" alt="{{ page.title }}">
         {% else %}
           <div class="character-detail-placeholder">NO IMAGE</div>
         {% endif %}
@@ -33,6 +33,9 @@ layout: default
         {% if page.position %}<div><dt>立場</dt><dd>{{ page.position }}</dd></div>{% endif %}
         {% if page.weapon %}<div><dt>得意武器</dt><dd>{{ page.weapon }}</dd></div>{% endif %}
         {% if page.combat %}<div><dt>戦闘</dt><dd>{{ page.combat }}</dd></div>{% endif %}
+        {% if page.grade %}<div><dt>学年</dt><dd>{{ page.grade }}</dd></div>{% endif %}
+        {% if page.class_name %}<div><dt>クラス</dt><dd>{{ page.class_name }}</dd></div>{% endif %}
+        {% if page.club %}<div><dt>所属</dt><dd>{{ page.club }}</dd></div>{% endif %}
       </dl>
     </section>
 
@@ -40,7 +43,7 @@ layout: default
       {{ content }}
     </section>
 
-    {% assign sorted_characters = site.characters | sort: 'order' %}
+    {% assign sorted_characters = site[page.collection] | sort: 'order' %}
     {% assign prev_character = null %}
     {% assign next_character = null %}
     {% assign previous_character = null %}
