@@ -1,6 +1,8 @@
 ---
 layout: page
-title: 学園パロディ キャラクター一覧
+title: キャラクター一覧
+display_title: CHARACTERS
+title_label: 学園パロディ
 lead: 黒帳学園に登場するキャラクターの一覧です。気になる人物を選ぶと詳細ページへ移動します。
 permalink: /academy/characters/
 theme: academy

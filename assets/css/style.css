@@ -132,7 +132,7 @@ img { max-width: 100%; display: block; }
 .site-main { min-height: 100vh; }
 
 .hero {
-  padding: 88px 0 50px;
+  padding: 6px 0 50px;
 }
 .eyebrow {
   margin: 0 0 10px;
@@ -193,6 +193,20 @@ img { max-width: 100%; display: block; }
 }
 .page-header {
   margin-bottom: 24px;
+}
+.page-title-label {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.04);
+  color: var(--accent-soft);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
 }
 .prose h2,
 .prose h3 {
@@ -343,7 +357,11 @@ img { max-width: 100%; display: block; }
     gap: 16px;
   }
   .site-tagline {
-    max-width: 28rem;
+    max-width: none;
+    font-size: clamp(0.72rem, 2vw, 0.84rem);
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
   }
   .nav-toggle {
     display: inline-flex;
@@ -442,27 +460,73 @@ img { max-width: 100%; display: block; }
 /* ここから学パロよう */
 
 body.theme-academy {
-  --bg: #181827;
-  --bg-alt: #212338;
-  --panel: #2a2e46;
-  --line: #434a67;
-  --text: #f7f7fb;
-  --muted: #c9cee0;
-  --accent: #9d6bc6;
-  --accent-soft: #c59be4;
-  background: linear-gradient(180deg, #171827 0%, #242842 100%);
+  --bg: #7471c3;
+  --bg-alt: #847fd1;
+  --panel: #8f8add;
+  --line: #b7b1f1;
+  --text: #fcfbff;
+  --muted: #eeebff;
+  --accent: #ff8ebe;
+  --accent-soft: #ffd3e7;
+  background:
+    radial-gradient(circle at top right, rgba(255, 211, 231, 0.22), transparent 30%),
+    linear-gradient(180deg, #7471c3 0%, #6b67bc 42%, #5f5aa9 100%);
 }
 
 body.theme-academy a {
-  color: #f0ddff;
+  color: #fff0f8;
 }
 
 body.theme-academy .site-header {
-  background: rgba(24, 24, 39, 0.84);
+  background: rgba(92, 87, 167, 0.82);
+  border-bottom-color: rgba(255,255,255,0.16);
+}
+
+body.theme-academy .site-nav a,
+body.theme-academy .site-tagline,
+body.theme-academy .lead,
+body.theme-academy .prose p,
+body.theme-academy .prose ul,
+body.theme-academy .footer-inner {
+  color: rgba(252, 251, 255, 0.88);
+}
+
+body.theme-academy .page-title-label {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.24);
+  color: #fff6fb;
+  box-shadow: 0 8px 22px rgba(72, 61, 138, 0.18);
+}
+
+body.theme-academy .nav-toggle,
+body.theme-academy .pagination-item a,
+body.theme-academy .character-card,
+body.theme-academy .character-meta,
+body.theme-academy .button-secondary {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.18);
+}
+
+body.theme-academy .button {
+  background: linear-gradient(135deg, #ff92c1, #ff78af);
+  color: white;
+}
+
+body.theme-academy .button:hover {
+  background: linear-gradient(135deg, #ffa3cb, #ff87b9);
 }
 
 body.theme-academy .character-card,
-body.theme-academy .character-meta,
-body.theme-academy .pagination-item a {
-  background: rgba(255,255,255,0.06);
+body.theme-academy .character-meta {
+  box-shadow: 0 16px 32px rgba(66, 57, 128, 0.16);
+}
+
+body.theme-academy .character-role {
+  color: #fff3a8;
+}
+
+body.theme-academy .character-card:hover,
+body.theme-academy .pagination-item a:hover {
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(255,255,255,0.26);
 }
