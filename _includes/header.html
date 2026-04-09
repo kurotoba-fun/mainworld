@@ -1,14 +1,58 @@
 <header class="site-header">
   <div class="container header-inner">
-    <div>
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.data.site.site_title }}</a>
-      <p class="site-tagline">{{ site.data.site.site_tagline }}</p>
+    <div class="header-top">
+      <div class="site-branding">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.data.site.site_title }}</a>
+        <p class="site-tagline">{{ site.data.site.site_tagline }}</p>
+      </div>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav-menu"
+        aria-label="ナビゲーションメニューを開閉"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
     </div>
-    <nav class="site-nav">
+    <nav class="site-nav" id="site-nav-menu">
       <a href="{{ '/' | relative_url }}">トップ</a>
       <a href="{{ '/characters/' | relative_url }}">キャラクター</a>
       <a href="{{ '/academy/characters/' | relative_url }}">学園パロキャラ</a>
       <a href="{{ '/about/' | relative_url }}">このサイトについて</a>
     </nav>
   </div>
+  <script>
+    (function () {
+      var header = document.currentScript && document.currentScript.closest('.site-header');
+      if (!header) return;
+
+      var button = header.querySelector('.nav-toggle');
+      var nav = header.querySelector('#site-nav-menu');
+      if (!button || !nav) return;
+
+      var closeMenu = function () {
+        button.setAttribute('aria-expanded', 'false');
+        nav.classList.remove('is-open');
+      };
+
+      button.addEventListener('click', function () {
+        var isOpen = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', String(!isOpen));
+        nav.classList.toggle('is-open', !isOpen);
+      });
+
+      nav.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+      window.addEventListener('resize', function () {
+        if (window.innerWidth > 640) {
+          closeMenu();
+        }
+      });
+    })();
+  </script>
 </header>

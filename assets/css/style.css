@@ -56,6 +56,14 @@ img { max-width: 100%; display: block; }
   gap: 24px;
   padding: 16px 0;
 }
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.site-branding {
+  min-width: 0;
+}
 .site-title {
   color: white;
   font-size: 1.1rem;
@@ -76,6 +84,50 @@ img { max-width: 100%; display: block; }
   font-size: 0.95rem;
 }
 .site-nav a:hover { color: white; }
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.04);
+  color: white;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.nav-toggle:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.22);
+}
+.nav-toggle-bar {
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+.nav-toggle {
+  position: relative;
+}
+.nav-toggle-bar:nth-child(1) {
+  transform: translateY(-6px);
+}
+.nav-toggle-bar:nth-child(3) {
+  transform: translateY(6px);
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1) {
+  transform: rotate(45deg);
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3) {
+  transform: rotate(-45deg);
+}
 
 .site-main { min-height: 100vh; }
 
@@ -281,7 +333,36 @@ img { max-width: 100%; display: block; }
 @media (max-width: 640px) {
   .header-inner {
     flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .header-top {
+    width: 100%;
+    justify-content: space-between;
     align-items: flex-start;
+    gap: 16px;
+  }
+  .site-tagline {
+    max-width: 28rem;
+  }
+  .nav-toggle {
+    display: inline-flex;
+  }
+  .site-nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    padding: 10px 0 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .site-nav.is-open {
+    display: flex;
+  }
+  .site-nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
   }
   .card-grid {
     grid-template-columns: 1fr;
