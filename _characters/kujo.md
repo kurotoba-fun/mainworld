@@ -5,6 +5,9 @@ order: 8
 summary: 10階で常にボスの傍に控える側近筆頭。執事のように振る舞うが、実際は最至近で護衛を担う実力者。
 age: 36歳
 position: 10階 ボス側近
+list_image: /assets/images/characters/list43/kujo_43261104.webp
+detail_image: /assets/images/characters/detail45/kujo45261104.webp
+
 ---
 
 冷静沈着で、常にボスの隣に立つ男。  
