@@ -2,7 +2,17 @@
   <div class="container header-inner">
     <div class="header-top">
       <div class="site-branding">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.data.site.site_title }}</a>
+        <div class="site-title-row">
+          <a class="site-title" href="{{ '/' | relative_url }}">
+            <img
+              class="site-logo"
+              src="{{ '/assets/images/site/logo_07261104.webp' | relative_url }}"
+              alt="{{ site.data.site.site_title }}"
+            >
+            <span class="site-title-text">キャラクター集</span>
+          </a>
+          <span class="site-badge">非公式</span>
+        </div>
         <p class="site-tagline">{{ site.data.site.site_tagline }}</p>
       </div>
       <button
