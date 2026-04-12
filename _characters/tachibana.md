@@ -6,6 +6,8 @@ order: 10
 summary: 10階で身辺警護と突発対応を担う実働型の護衛。寡黙で実直だが、ボスの無茶に最も振り回されている一人。
 age: 40歳
 position: 10階 ボス側近
+list_image: /assets/images/characters/list43/tachibana.webp
+detail_image: /assets/images/characters/detail45/tachibana.webp
 ---
 
 近接戦闘に特化した、実働型の護衛兼雑務担当。  
