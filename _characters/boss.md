@@ -4,6 +4,8 @@ role: 黒帳の最高権力者
 order: 4
 summary: 黒帳を束ねる最高権力者。圧倒的な統率力とカリスマを持ち、裏切りを決して許さない。
 position: 10階執務室
+list_image: /assets/images/characters/list43/boss.webp
+detail_image: /assets/images/characters/list43/boss.webp
 ---
 
 黒帳の司令塔であり、世界中のギャングやマフィアとも繋がりを持つ謎多き存在。
