@@ -47,10 +47,13 @@ items:
     {% elsif item.src contains '.PNG' %}
       {% assign thumb_src = item.src | replace: '.PNG', '.webp' %}
     {% endif %}
+    {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
     <figure class="gallery-card">
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}">
         <picture>
-          <source srcset="{{ thumb_src | relative_url }}" type="image/webp">
+          {% if webp_match and webp_match.size > 0 %}
+            <source srcset="{{ thumb_src | relative_url }}" type="image/webp">
+          {% endif %}
           <img
             src="{{ item.src | relative_url }}"
             alt="{{ item.title | default: 'gallery image' }}"
