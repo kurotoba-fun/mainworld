@@ -15,19 +15,48 @@ items:
   - src: /assets/images/gallery/sirose1.jpg
     title: "ホストヘア白瀬"
     tags: ["白瀬"]
+  - src: /assets/images/gallery/amagi/IMG_6366.JPG
+    title: "天城"
+    tags: ["天城"]
+  - src: /assets/images/gallery/amagi/IMG_6368.JPG
+    title: "天城"
+    tags: ["天城"]
+  - src: /assets/images/gallery/amagi/IMG_6371.JPG
+    title: "天城"
+    tags: ["天城"]
+  - src: /assets/images/gallery/amagi/IMG_6372.JPG
+    title: "天城"
+    tags: ["天城"]
 ---
 
-<p class="lead">画像をクリックするとモーダルで拡大表示されます。タグはこのページの `items` に追加してください。</p>
+<p class="lead">画像をクリックするとモーダルで拡大表示されます。</p>
 
 <section class="gallery-grid">
   {% for item in page.items %}
+    {% assign thumb_src = item.src %}
+    {% if item.src contains '.jpg' %}
+      {% assign thumb_src = item.src | replace: '.jpg', '.webp' %}
+    {% elsif item.src contains '.JPG' %}
+      {% assign thumb_src = item.src | replace: '.JPG', '.webp' %}
+    {% elsif item.src contains '.jpeg' %}
+      {% assign thumb_src = item.src | replace: '.jpeg', '.webp' %}
+    {% elsif item.src contains '.JPEG' %}
+      {% assign thumb_src = item.src | replace: '.JPEG', '.webp' %}
+    {% elsif item.src contains '.png' %}
+      {% assign thumb_src = item.src | replace: '.png', '.webp' %}
+    {% elsif item.src contains '.PNG' %}
+      {% assign thumb_src = item.src | replace: '.PNG', '.webp' %}
+    {% endif %}
     <figure class="gallery-card">
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}">
-        <img
-          src="{{ item.src | relative_url }}"
-          alt="{{ item.title | default: 'gallery image' }}"
-          loading="lazy"
-        >
+        <picture>
+          <source srcset="{{ thumb_src | relative_url }}" type="image/webp">
+          <img
+            src="{{ item.src | relative_url }}"
+            alt="{{ item.title | default: 'gallery image' }}"
+            loading="lazy"
+          >
+        </picture>
       </button>
       {% if item.title or item.tags %}
         <figcaption class="gallery-caption">
