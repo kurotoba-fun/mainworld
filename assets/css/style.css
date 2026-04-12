@@ -82,6 +82,10 @@ img { max-width: 100%; display: block; }
   font-weight: 800;
   min-width: 0;
 }
+.site-logo-text {
+  display: none;
+  font-weight: 800;
+}
 .site-logo {
   width: clamp(96px, 10vw, 132px);
   height: auto;
@@ -511,26 +515,27 @@ img { max-width: 100%; display: block; }
 /* ここから学パロよう */
 
 body.theme-academy {
-  --bg: #7471c3;
-  --bg-alt: #847fd1;
-  --panel: #8f8add;
-  --line: #b7b1f1;
-  --text: #fcfbff;
-  --muted: #eeebff;
-  --accent: #ff8ebe;
-  --accent-soft: #ffd3e7;
+  --bg: #f5f2ea;
+  --bg-alt: #fff8ef;
+  --panel: #ffffff;
+  --line: #e2dccf;
+  --text: #2a251f;
+  --muted: #5f574c;
+  --accent: #de8b3a;
+  --accent-soft: #f3c78a;
   background:
-    radial-gradient(circle at top right, rgba(255, 211, 231, 0.22), transparent 30%),
-    linear-gradient(180deg, #7471c3 0%, #6b67bc 42%, #5f5aa9 100%);
+    radial-gradient(circle at top right, rgba(243, 199, 138, 0.35), transparent 36%),
+    linear-gradient(180deg, #fdf9f2 0%, #f5f2ea 55%, #efe7d8 100%);
 }
 
 body.theme-academy a {
-  color: #fff0f8;
+  color: #9a5a20;
 }
 
 body.theme-academy .site-header {
-  background: rgba(92, 87, 167, 0.82);
-  border-bottom-color: rgba(255,255,255,0.16);
+  background: rgba(24, 54, 41, 0.92);
+  border-bottom-color: rgba(255,255,255,0.14);
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,0.08);
 }
 
 body.theme-academy .site-nav a,
@@ -539,14 +544,32 @@ body.theme-academy .lead,
 body.theme-academy .prose p,
 body.theme-academy .prose ul,
 body.theme-academy .footer-inner {
-  color: rgba(252, 251, 255, 0.88);
+  color: #3b342b;
+}
+
+body.theme-academy .site-header .site-title,
+body.theme-academy .site-header .site-title-text,
+body.theme-academy .site-header .site-tagline,
+body.theme-academy .site-header .site-nav a {
+  color: #f6f2e8;
+}
+body.theme-academy .site-logo {
+  display: none;
+}
+body.theme-academy .site-logo-text {
+  display: inline-block;
+  color: #f6f2e8;
+  font-family: "UD デジタル 教科書体", "UD Digi Kyokasho", "UD Digi Kyokasho NK-R",
+    "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  letter-spacing: 0.08em;
 }
 
 body.theme-academy .page-title-label {
-  background: rgba(255, 255, 255, 0.16);
-  border-color: rgba(255, 255, 255, 0.24);
-  color: #fff6fb;
-  box-shadow: 0 8px 22px rgba(72, 61, 138, 0.18);
+  background: rgba(222, 139, 58, 0.18);
+  border-color: rgba(222, 139, 58, 0.38);
+  color: #7b4a1a;
+  box-shadow: 0 10px 24px rgba(202, 151, 90, 0.2);
 }
 
 body.theme-academy .nav-toggle,
@@ -554,30 +577,30 @@ body.theme-academy .pagination-item a,
 body.theme-academy .character-card,
 body.theme-academy .character-meta,
 body.theme-academy .button-secondary {
-  background: rgba(255,255,255,0.12);
-  border-color: rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.78);
+  border-color: rgba(187, 165, 130, 0.35);
 }
 
 body.theme-academy .button {
-  background: linear-gradient(135deg, #ff92c1, #ff78af);
+  background: linear-gradient(135deg, #f1a24b, #e0812c);
   color: white;
 }
 
 body.theme-academy .button:hover {
-  background: linear-gradient(135deg, #ffa3cb, #ff87b9);
+  background: linear-gradient(135deg, #f6b463, #e48a3a);
 }
 
 body.theme-academy .character-card,
 body.theme-academy .character-meta {
-  box-shadow: 0 16px 32px rgba(66, 57, 128, 0.16);
+  box-shadow: 0 16px 32px rgba(155, 125, 83, 0.18);
 }
 
 body.theme-academy .character-role {
-  color: #fff3a8;
+  color: #9a5a20;
 }
 
 body.theme-academy .character-card:hover,
 body.theme-academy .pagination-item a:hover {
-  background: rgba(255,255,255,0.18);
-  border-color: rgba(255,255,255,0.26);
+  background: rgba(255,255,255,0.92);
+  border-color: rgba(187, 165, 130, 0.5);
 }
