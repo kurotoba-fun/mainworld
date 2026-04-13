@@ -204,7 +204,7 @@ items:
   - src: /assets/images/gallery/susugaya/IMG_6391.JPG
     title: "煤ヶ谷"
     tags: ["煤ヶ谷"]
-  - src: /assets/images/gallery/tachibana/tachibana.JPG
+  - src: /assets/images/gallery/kujo/kujo.JPG
     title: "九条"
     tags: ["九条"]
   - src: /assets/images/gallery/shirabe/IMG_6407.JPG
