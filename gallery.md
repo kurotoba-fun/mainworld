@@ -3,61 +3,25 @@ layout: page
 title: ギャラリー
 permalink: /gallery/
 items:
-  - src: /assets/images/gallery/amagi1.jpg
-    title: "天城"
-    tags: ["天城","ヘアチェンジ"]
-  - src: /assets/images/gallery/shirabe1.jpg
-    title: "調"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe2.jpg
-    title: "調"
-    tags: ["調"]
-  - src: /assets/images/gallery/sirose1.jpg
-    title: "白瀬"
-    tags: ["白瀬"]
-  - src: /assets/images/gallery/amagi/IMG_6366.JPG
-    title: "天城"
-    tags: ["天城"]
-  - src: /assets/images/gallery/amagi/IMG_6368.JPG
-    title: "天城"
-    tags: ["天城"]
-  - src: /assets/images/gallery/amagi/IMG_6371.JPG
-    title: "天城"
-    tags: ["天城"]
-  - src: /assets/images/gallery/amagi/IMG_6372.JPG
-    title: "天城"
-    tags: ["天城"]
   - src: /assets/images/gallery/arata/IMG_6255.jpg
-    title: "灼"
-    tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6257.jpg
     title: "灼"
     tags: ["灼"]
   - src: /assets/images/gallery/arata/IMG_6262.jpg
     title: "灼"
     tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6263.JPG
-    title: "灼"
-    tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6268.JPG
-    title: "灼"
-    tags: ["灼"]
   - src: /assets/images/gallery/arata/IMG_6269.JPG
     title: "灼"
     tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6270.JPG
-    title: "灼"
-    tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6271.JPG
-    title: "灼"
-    tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6284.JPG
-    title: "灼"
-    tags: ["灼"]
+  - src: /assets/images/gallery/shirabe/IMG_6266.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6272.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6274.JPG
+    title: "調"
+    tags: ["調"]
   - src: /assets/images/gallery/arata/IMG_6300.JPG
-    title: "灼"
-    tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6304.JPG
     title: "灼"
     tags: ["灼"]
   - src: /assets/images/gallery/arata/IMG_6305.JPG
@@ -78,6 +42,39 @@ items:
   - src: /assets/images/gallery/arata/IMG_6329.JPG
     title: "灼"
     tags: ["灼"]
+  - src: /assets/images/gallery/kairi/IMG_6326.JPG
+    title: "浬"
+    tags: ["浬"]
+  - src: /assets/images/gallery/shirabe/IMG_6328.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/arata/IMG_6257.jpg
+    title: "灼"
+    tags: ["灼"]
+  - src: /assets/images/gallery/arata/IMG_6263.JPG
+    title: "灼"
+    tags: ["灼"]
+  - src: /assets/images/gallery/arata/IMG_6268.JPG
+    title: "灼"
+    tags: ["灼"]
+  - src: /assets/images/gallery/arata/IMG_6270.JPG
+    title: "灼"
+    tags: ["灼"]
+  - src: /assets/images/gallery/arata/IMG_6271.JPG
+    title: "灼"
+    tags: ["灼"]
+  - src: /assets/images/gallery/shirabe/IMG_6273.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/arata/IMG_6284.JPG
+    title: "灼"
+    tags: ["灼"]
+  - src: /assets/images/gallery/arata/IMG_6304.JPG
+    title: "灼"
+    tags: ["灼"]
+  - src: /assets/images/gallery/shirabe/IMG_6310.JPG
+    title: "調"
+    tags: ["調"]
   - src: /assets/images/gallery/arata/IMG_6330.JPG
     title: "灼"
     tags: ["灼"]
@@ -87,6 +84,12 @@ items:
   - src: /assets/images/gallery/arata/IMG_6332.JPG
     title: "灼"
     tags: ["灼"]
+  - src: /assets/images/gallery/shirabe/IMG_6325.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6327.JPG
+    title: "調"
+    tags: ["調"]
   - src: /assets/images/gallery/arata/IMG_6333.JPG
     title: "灼"
     tags: ["灼"]
@@ -96,6 +99,27 @@ items:
   - src: /assets/images/gallery/arata/IMG_6345.JPG
     title: "灼"
     tags: ["灼"]
+  - src: /assets/images/gallery/shirabe/IMG_6334.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6346.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/kairi/IMG_6340.JPG
+    title: "浬"
+    tags: ["浬"]
+  - src: /assets/images/gallery/kairi/IMG_6341.JPG
+    title: "浬"
+    tags: ["浬"]
+  - src: /assets/images/gallery/kairi/IMG_6342.JPG
+    title: "浬"
+    tags: ["浬"]
+  - src: /assets/images/gallery/kairi/IMG_6343.JPG
+    title: "浬"
+    tags: ["浬"]
+  - src: /assets/images/gallery/kairi/IMG_6336.jpg
+    title: "浬"
+    tags: ["浬"]
   - src: /assets/images/gallery/arata/IMG_6347.JPG
     title: "灼"
     tags: ["灼"]
@@ -111,6 +135,18 @@ items:
   - src: /assets/images/gallery/arata/IMG_6354.JPG
     title: "灼"
     tags: ["灼"]
+  - src: /assets/images/gallery/shirabe/IMG_6348.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6351.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6352.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6355.JPG
+    title: "調"
+    tags: ["調"]
   - src: /assets/images/gallery/arata/IMG_6356.JPG
     title: "灼"
     tags: ["灼"]
@@ -120,119 +156,91 @@ items:
   - src: /assets/images/gallery/arata/IMG_6361.JPG
     title: "灼"
     tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6362.JPG
+  - src: /assets/images/gallery/arata/IMG_6363.jpg
     title: "灼"
     tags: ["灼"]
-  - src: /assets/images/gallery/arata/IMG_6363.jpg
+  - src: /assets/images/gallery/shirabe/IMG_6358.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6359.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6360.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6364.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirose/IMG_6365.JPG
+    title: "白瀬"
+    tags: ["白瀬"]
+  - src: /assets/images/gallery/amagi/IMG_6366.JPG
+    title: "天城"
+    tags: ["天城"]
+  - src: /assets/images/gallery/arata/IMG_6362.JPG
     title: "灼"
     tags: ["灼"]
   - src: /assets/images/gallery/arata/IMG_6369.JPG
     title: "灼"
     tags: ["灼"]
-  - src: /assets/images/gallery/shirabe/IMG_6266.JPG
-    title: "調 IMG_6266"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6272.JPG
-    title: "調 IMG_6272"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6273.JPG
-    title: "調 IMG_6273"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6274.JPG
-    title: "調 IMG_6274"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6310.JPG
-    title: "調 IMG_6310"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6325.JPG
-    title: "調 IMG_6325"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6327.JPG
-    title: "調 IMG_6327"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6328.JPG
-    title: "調 IMG_6328"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6334.JPG
-    title: "調 IMG_6334"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6346.JPG
-    title: "調 IMG_6346"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6348.JPG
-    title: "調 IMG_6348"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6351.JPG
-    title: "調 IMG_6351"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6352.JPG
-    title: "調 IMG_6352"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6355.JPG
-    title: "調 IMG_6355"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6358.JPG
-    title: "調 IMG_6358"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6359.JPG
-    title: "調 IMG_6359"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6360.JPG
-    title: "調 IMG_6360"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6364.JPG
-    title: "調 IMG_6364"
-    tags: ["調"]
   - src: /assets/images/gallery/shirabe/IMG_6370.JPG
-    title: "調 IMG_6370"
+    title: "調"
     tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6405.JPG
-    title: "調 IMG_6405"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6406.JPG
-    title: "調 IMG_6406"
-    tags: ["調"]
-  - src: /assets/images/gallery/shirabe/IMG_6407.JPG
-    title: "調 IMG_6407"
-    tags: ["調"]
-  - src: /assets/images/gallery/kairi/IMG_6326.JPG
-    title: "浬"
-    tags: ["浬"]
-  - src: /assets/images/gallery/kairi/IMG_6336.jpg
-    title: "浬"
-    tags: ["浬"]
-  - src: /assets/images/gallery/kairi/IMG_6340.JPG
-    title: "浬"
-    tags: ["浬"]
-  - src: /assets/images/gallery/kairi/IMG_6341.JPG
-    title: "浬"
-    tags: ["浬"]
-  - src: /assets/images/gallery/kairi/IMG_6342.JPG
-    title: "浬"
-    tags: ["浬"]
-  - src: /assets/images/gallery/kairi/IMG_6343.JPG
-    title: "浬"
-    tags: ["浬"]
-  - src: /assets/images/gallery/shirose/IMG_6365.JPG
-    title: "白瀬"
-    tags: ["白瀬"]
   - src: /assets/images/gallery/shirose/IMG_6367.JPG
     title: "白瀬"
     tags: ["白瀬"]
-  - src: /assets/images/gallery/shirose/IMG_6404.JPG
-    title: "白瀬"
-    tags: ["白瀬"]
+  - src: /assets/images/gallery/amagi/IMG_6368.JPG
+    title: "天城"
+    tags: ["天城"]
+  - src: /assets/images/gallery/amagi/IMG_6371.JPG
+    title: "天城"
+    tags: ["天城"]
+  - src: /assets/images/gallery/amagi/IMG_6372.JPG
+    title: "天城"
+    tags: ["天城"]
   - src: /assets/images/gallery/susugaya/IMG_6390.JPG
     title: "煤ヶ谷"
     tags: ["煤ヶ谷"]
   - src: /assets/images/gallery/susugaya/IMG_6391.JPG
     title: "煤ヶ谷"
     tags: ["煤ヶ谷"]
+  - src: /assets/images/gallery/shirabe/IMG_6407.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirose/IMG_6404.JPG
+    title: "白瀬"
+    tags: ["白瀬"]
+  - src: /assets/images/gallery/shirabe/IMG_6405.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe/IMG_6406.JPG
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe1.jpg
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/shirabe2.jpg
+    title: "調"
+    tags: ["調"]
+  - src: /assets/images/gallery/amagi1.jpg
+    title: "天城"
+    tags: ["天城","ヘアチェンジ"]
+  - src: /assets/images/gallery/sirose1.jpg
+    title: "白瀬"
+    tags: ["白瀬"]
 ---
 
 <p class="lead">画像をクリックするとモーダルで拡大表示されます。</p>
 
-<section class="gallery-grid">
+<div class="gallery-toolbar">
+  <span class="gallery-toolbar-label">表示</span>
+  <div class="gallery-toggle" role="group" aria-label="ギャラリー表示切り替え">
+    <button class="gallery-toggle-button" type="button" data-gallery-view="cards" aria-pressed="true">カード</button>
+    <button class="gallery-toggle-button" type="button" data-gallery-view="photos" aria-pressed="false">写真</button>
+  </div>
+</div>
+
+<section class="gallery-grid" data-gallery-view="cards">
   {% for item in page.items %}
     {% assign thumb_src = item.src %}
     {% if item.src contains '.jpg' %}
@@ -253,10 +261,11 @@ items:
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}">
         <picture>
           {% if webp_match and webp_match.size > 0 %}
-            <source srcset="{{ thumb_src | relative_url }}" type="image/webp">
+            <source data-srcset="{{ thumb_src | relative_url }}" type="image/webp">
           {% endif %}
           <img
-            src="{{ item.src | relative_url }}"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+            data-src="{{ item.src | relative_url }}"
             alt="{{ item.title | default: 'gallery image' }}"
             loading="lazy"
           >
@@ -332,5 +341,60 @@ items:
         closeModal();
       }
     });
+
+    var viewContainer = document.querySelector('.gallery-grid');
+    var toggleButtons = Array.prototype.slice.call(document.querySelectorAll('.gallery-toggle-button'));
+    var setView = function (view) {
+      if (!viewContainer) return;
+      viewContainer.setAttribute('data-gallery-view', view);
+      toggleButtons.forEach(function (button) {
+        var isActive = button.getAttribute('data-gallery-view') === view;
+        button.setAttribute('aria-pressed', String(isActive));
+      });
+      try {
+        window.localStorage.setItem('galleryView', view);
+      } catch (e) {}
+    };
+
+    var preferred = null;
+    try {
+      preferred = window.localStorage.getItem('galleryView');
+    } catch (e) {}
+    if (!preferred) {
+      preferred = window.matchMedia('(max-width: 640px)').matches ? 'photos' : 'cards';
+    }
+    setView(preferred);
+
+    toggleButtons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        setView(button.getAttribute('data-gallery-view'));
+      });
+    });
+
+    var lazyTargets = Array.prototype.slice.call(document.querySelectorAll('.gallery-grid img[data-src]'));
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function (entries, obs) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          var img = entry.target;
+          var picture = img.closest('picture');
+          if (picture) {
+            picture.querySelectorAll('source[data-srcset]').forEach(function (source) {
+              source.srcset = source.getAttribute('data-srcset');
+              source.removeAttribute('data-srcset');
+            });
+          }
+          img.src = img.getAttribute('data-src');
+          img.removeAttribute('data-src');
+          obs.unobserve(img);
+        });
+      }, { rootMargin: '200px 0px' });
+      lazyTargets.forEach(function (img) { observer.observe(img); });
+    } else {
+      lazyTargets.forEach(function (img) {
+        img.src = img.getAttribute('data-src');
+        img.removeAttribute('data-src');
+      });
+    }
   })();
 </script>
