@@ -1,0 +1,9 @@
+- src: "/assets/images/gallery/mini-character.jpg"
+  title: "ミニキャラ"
+  tags:
+    - ミニキャラ
+
+- src: "/assets/images/gallery/tsumuji.jpeg"
+  title: "ツムジ丸"
+  tags:
+    - ツムジ丸
