@@ -18,6 +18,7 @@ GALLERY_TITLES = {
   "susugaya" => "煤ヶ谷",
   "tachibana" => "橘"
 }.freeze
+TIMEZONE_OFFSET = "+09:00".freeze
 
 items = GALLERY_TITLES.flat_map do |directory, title|
   source_dir = File.join(GALLERY_ROOT, directory)
@@ -32,6 +33,7 @@ items = GALLERY_TITLES.flat_map do |directory, title|
       "src" => "/assets/images/gallery/#{directory}/#{filename}",
       "title" => title,
       "tags" => [title],
+      "date" => File.mtime(source_path).getlocal(TIMEZONE_OFFSET).strftime("%Y-%m-%dT%H:%M:%S%:z"),
       "mtime" => File.mtime(source_path).to_i
     }
   end

@@ -18,6 +18,7 @@ permalink: /gallery/
 {% if site.data.gallery_items_manual %}
   {% assign gallery_items = gallery_items | concat: site.data.gallery_items_manual %}
 {% endif %}
+{% assign gallery_items = gallery_items | sort: "date" | reverse %}
 
 <section class="gallery-grid" data-gallery-view="cards">
   {% for item in gallery_items %}
