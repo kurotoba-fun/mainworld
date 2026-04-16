@@ -5,7 +5,7 @@ require "yaml"
 
 ROOT = File.expand_path("..", __dir__)
 GALLERY_ROOT = File.join(ROOT, "assets", "images", "gallery")
-OUTPUT_PATH = File.join(ROOT, "_data", "gallery_items.yml")
+OUTPUT_PATH = File.join(ROOT, "_data", "gallery_items_generated.yml")
 GALLERY_TITLES = {
   "amagi" => "天城",
   "arata" => "灼",
