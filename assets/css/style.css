@@ -517,6 +517,7 @@ img { max-width: 100%; display: block; }
   height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  object-position: var(--gallery-thumb-position, 50% 50%);
 }
 
 .gallery-caption {

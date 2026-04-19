@@ -33,6 +33,7 @@ permalink: /gallery/
       {% assign thumb_src = item.src | replace: '.PNG', '.webp' %}
     {% endif %}
     {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
+    {% assign thumb_position = item.thumb_position | default: "50% 50%" %}
     <figure class="gallery-card">
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}">
         <picture>
@@ -44,6 +45,7 @@ permalink: /gallery/
             data-src="{{ item.src | relative_url }}"
             alt="{{ item.title | default: 'gallery image' }}"
             loading="lazy"
+            style="--gallery-thumb-position: {{ thumb_position }};"
           >
         </picture>
       </button>

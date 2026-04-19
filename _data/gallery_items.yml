@@ -1,4 +1,40 @@
 ---
+- src: "/assets/images/gallery/amagi/HGR1_q1akAAGRAR.jpg"
+  title: 衣装チェンジ☆天城
+  tags:
+  - 天城
+  - 衣装チェンジ
+  date: '2026-04-20T00:38:00+09:00'
+- src: "/assets/images/gallery/arata/HGR0VhrbMAAQnh7.jpg"
+  title: 衣装チェンジ☆灼
+  tags:
+  - 灼
+  - 衣装チェンジ
+  date: '2026-04-20T00:38:00+09:00'
+- src: "/assets/images/gallery/kairi/HGR0VhjbsAAmlhj.jpg"
+  title: 衣装チェンジ☆浬
+  tags:
+  - 浬
+  - 衣装チェンジ
+  date: '2026-04-20T00:38:00+09:00'
+- src: "/assets/images/gallery/shirabe/HGR0VhbaAAAhw46.jpg"
+  title: 衣装チェンジ☆調
+  tags:
+  - 調
+  - 衣装チェンジ
+  date: '2026-04-20T00:38:00+09:00'
+- src: "/assets/images/gallery/shirose/HGR1_q0bQAA7C2J.jpg"
+  title: 衣装チェンジ☆白瀬
+  tags:
+  - 白瀬
+  - 衣装チェンジ
+  date: '2026-04-20T00:38:00+09:00'
+- src: "/assets/images/gallery/susugaya/HGR1_qxaoAAD2vr.jpg"
+  title: 衣装チェンジ☆煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  - 衣装チェンジ
+  date: '2026-04-20T00:38:00+09:00'
 - src: "/assets/images/gallery/fumi/HGRaerEaIAA77Va.jpg"
   title: 現役時代のふみさん
   tags:
@@ -36,6 +72,7 @@
   tags:
   - 浬
   date: '2026-04-19T19:55:00+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/kairi/HGQvY4oaYAAWyhw.jpg"
   title: 「哩に近づくな。」
   tags:
@@ -68,6 +105,7 @@
   - 調
   - アイドル
   date: '2026-04-19T07:59:00+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/shirabe/HGORSndbQAAbxjL.jpg"
   title: アイドルの調
   tags:
@@ -137,6 +175,7 @@
   tags:
   - 哩
   date: '2026-04-17T19:01:00+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/mairu/HGEGgk9agAAcBgH.jpeg"
   title: 哩
   tags:
@@ -924,6 +963,7 @@
   - 灼
   - 王子版
   date: '2026-04-03T00:00:00+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirose/HE7tncrbUAAa2-s.jpg"
   title: 白瀬
   tags:
