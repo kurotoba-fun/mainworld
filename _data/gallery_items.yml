@@ -1,4 +1,10 @@
 ---
+- src: "/assets/images/gallery/shirose/HGTfNXJawAA1Eho.jpg"
+  title: 白瀬バースデー
+  tags:
+  - 白瀬
+  - 誕生日
+  date: '2026-04-20T08:30:00+09:00'
 - src: "/assets/images/gallery/amagi/HGR1_q1akAAGRAR.jpg"
   title: 衣装チェンジ☆天城
   tags:
@@ -1339,9 +1345,9 @@
   title: 天城
   tags:
   - 天城
-  date: '2026-04-16T20:56:46+09:00'
+  date: '2026-04-16T20:53:46+09:00'
 - src: "/assets/images/gallery/shirabe/HFsgIC2agAAiLSp.jpg"
-  title: 調
+  title: 幼い調
   tags:
   - 調
   date: '2026-04-16T20:55:57+09:00'
@@ -1349,14 +1355,14 @@
   title: 調
   tags:
   - 調
-  date: '2026-04-16T20:55:52+09:00'
+  date: '2026-04-16T20:54:39+09:00'
 - src: "/assets/images/gallery/shirabe/HFxwAOXa0AAhlox.jpg"
-  title: 調
+  title: 灼をからかう調
   tags:
   - 調
-  date: '2026-04-16T20:55:39+09:00'
+  date: '2026-04-16T20:54:40+09:00'
 - src: "/assets/images/gallery/arata/HFxwAObaEAAjoep.jpg"
-  title: 灼
+  title: 調にキレる灼
   tags:
   - 灼
   date: '2026-04-16T20:55:34+09:00'
