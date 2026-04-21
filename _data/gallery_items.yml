@@ -1,9 +1,27 @@
 ---
+- src: "/assets/images/gallery/shirabe/HGb7O7xacAAvuyv.jpg"
+  title: 海辺の調
+  tags:
+  - 調
+  date: '2026-04-21T23:37:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/kairi/HGb10ojaAAAE9az.jpg"
+  title: ロングヘアの浬
+  tags:
+  - 浬
+  date: '2026-04-21T23:14:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/shirabe/HGb10ooaEAAxfMv.jpg"
+  title: ロングヘアの調
+  tags:
+  - 調
+  date: '2026-04-21T23:14:00+09:00'
 - src: "/assets/images/gallery/amagi/HGbJ-ApaQAA0px3.jpg"
   title: 喫煙の天城
   tags:
   - 天城
   date: '2026-04-21T20:02:00+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/arata/HGbJ-AwbIAADZuO.jpg"
   title: 喫煙の灼
   tags:
