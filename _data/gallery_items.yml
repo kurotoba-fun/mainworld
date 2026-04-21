@@ -4,11 +4,13 @@
   tags:
   - 調
   date: '2026-04-19T06:20:00+09:00'
+  thumb_position: '34% 32%'
 - src: "/assets/images/gallery/shirabe/HGN6njYbIAAK8D0.jpg"
   title: ピアノを弾く調
   tags:
   - 調
   date: '2026-04-19T06:20:00+09:00'
+  thumb_position: '28% 30%'
 - src: "/assets/images/gallery/shirose/HGTfNXJawAA1Eho.jpg"
   title: 白瀬バースデー
   tags:
@@ -127,6 +129,30 @@
   - 灼
   - 謝罪
   date: '2026-04-19T11:57:00+09:00'
+- src: "/assets/images/gallery/amagi/HGONRYQbcAApnWU.jpg"
+  title: 執事の天城
+  tags:
+  - 天城
+  date: '2026-04-19T07:42:00+09:00'
+  thumb_position: '50% 16%'
+- src: "/assets/images/gallery/amagi/HGONRYSa0AEPztA.jpg"
+  title: マグショット天城
+  tags:
+  - 天城
+  date: '2026-04-19T07:42:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/amagi/HGONRYTboAIUSsu.jpg"
+  title: 猫耳天城
+  tags:
+  - 天城
+  date: '2026-04-19T07:42:00+09:00'
+  thumb_position: '50% 18%'
+- src: "/assets/images/gallery/amagi/HGONRYTbQAAip9I.jpg"
+  title: メス天城
+  tags:
+  - 天城
+  date: '2026-04-19T07:42:00+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/shirabe/HGO-ap7aUAAkhaz.jpg"
   title: アイドルの調
   tags:
@@ -162,6 +188,7 @@
   tags:
   - 煤ヶ谷
   date: '2026-04-18T19:05:00+09:00'
+  thumb_position: '52% 18%'
 - src: "/assets/images/gallery/shirose/HGMa-3MaUAA_2pM.jpg"
   title: 捕まった白瀬
   tags:
@@ -177,12 +204,14 @@
   tags:
   - 浬
   date: '2026-04-18T19:02:00+09:00'
+  thumb_position: '34% 18%'
 - src: "/assets/images/gallery/kairi/HGKF02taUAAfGqc.jpg"
   title: 浬30万トーク記念
   tags:
   - 浬
   - 記念
   date: '2026-04-18T19:01:00+09:00'
+  thumb_position: '34% 16%'
 - src: "/assets/images/gallery/shirabe/HGJxo7FbUAAWb67.jpg"
   title: 医者の調
   tags:
