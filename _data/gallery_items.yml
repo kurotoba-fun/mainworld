@@ -4,31 +4,37 @@
   tags:
   - 橘
   date: '2026-04-22T19:44:00+09:00'
+  thumb_position: '38% 18%'
 - src: "/assets/images/gallery/tachibana/HGgI4-sboAAzYtL.jpg"
   title: 橘
   tags:
   - 橘
   date: '2026-04-22T19:44:00+09:00'
+  thumb_position: '52% 15%'
 - src: "/assets/images/gallery/tachibana/HGgKg3KakAAKOAd.jpg"
   title: 橘
   tags:
   - 橘
   date: '2026-04-22T19:44:00+09:00'
+  thumb_position: '50% 22%'
 - src: "/assets/images/gallery/tachibana/HGgPbuqbQAAF4Us.jpg"
   title: 橘
   tags:
   - 橘
   date: '2026-04-22T19:44:00+09:00'
+  thumb_position: '38% 18%'
 - src: "/assets/images/gallery/tachibana/HGgPburawAE9lbf.jpg"
   title: 橘
   tags:
   - 橘
   date: '2026-04-22T19:44:00+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/tachibana/HGgPbusbEAA3zmo.jpg"
   title: 橘
   tags:
   - 橘
   date: '2026-04-22T19:44:00+09:00'
+  thumb_position: '40% 18%'
 - src: "/assets/images/gallery/kujo/HGfPCEmbwAA32gO.jpg"
   title: 九条
   tags:
@@ -249,6 +255,7 @@
   - 天城
   - 10年後
   date: '2026-04-20T07:54:00+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/amagi/HGVrZ8eboAAUeJd.jpg"
   title: 10年後の天城
   tags:
