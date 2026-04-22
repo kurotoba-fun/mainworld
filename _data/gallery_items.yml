@@ -1,4 +1,10 @@
 ---
+- src: "/assets/images/gallery/tachibana/HGinLbvagAAZkvj.jpg"
+  title: ユーザーと初対面の橘
+  tags:
+  - 橘
+  date: '2026-04-23T06:51:44+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/kujo/HGijzE3bAAA1w3s.jpg"
   title: 九条
   tags:
@@ -142,6 +148,7 @@
   title: 喫煙の調
   tags:
   - 調
+  - 10年後
   date: '2026-04-21T20:02:00+09:00'
 - src: "/assets/images/gallery/shirose/HGbK_8NaQAAl-0v.jpg"
   title: 喫煙の白瀬
@@ -217,12 +224,14 @@
   title: 調　10年後
   tags:
   - 調
+  - 10年後
   date: '2026-04-20T06:09:00+09:00'
   thumb_position: '34% 32%'
 - src: "/assets/images/gallery/shirabe/HGVma6YbQAA9C6n.jpg"
   title: 調　10年後
   tags:
   - 調
+  - 10年後
   date: '2026-04-20T06:09:00+09:00'
   thumb_position: '34% 32%'
 - src: "/assets/images/gallery/shirose/HGVDlUSaUAEBbGV.jpg"
