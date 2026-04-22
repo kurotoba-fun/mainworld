@@ -15,6 +15,25 @@ permalink: /gallery/
 </div>
 
 {% assign gallery_items = site.data.gallery_items | sort: "date" | reverse %}
+{% assign gallery_tags = "" | split: "" %}
+{% for item in gallery_items %}
+  {% if item.tags %}
+    {% for tag in item.tags %}
+      {% assign gallery_tags = gallery_tags | push: tag %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+{% assign gallery_tags = gallery_tags | uniq | sort %}
+
+<div class="gallery-filter">
+  <span class="gallery-toolbar-label">タグ</span>
+  <div class="gallery-filter-tags" role="group" aria-label="ギャラリーのタグ絞り込み">
+    <button class="gallery-filter-button" type="button" data-gallery-filter="all" aria-pressed="true">すべて</button>
+    {% for tag in gallery_tags %}
+      <button class="gallery-filter-button" type="button" data-gallery-filter="{{ tag }}" aria-pressed="false">{{ tag }}</button>
+    {% endfor %}
+  </div>
+</div>
 
 <section class="gallery-grid" data-gallery-view="cards">
   {% for item in gallery_items %}
@@ -34,7 +53,7 @@ permalink: /gallery/
     {% endif %}
     {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
     {% assign thumb_position = item.thumb_position | default: "50% 50%" %}
-    <figure class="gallery-card">
+    <figure class="gallery-card" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}">
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-index="{{ forloop.index0 }}">
         <picture>
           {% if webp_match and webp_match.size > 0 %}
@@ -57,7 +76,7 @@ permalink: /gallery/
           {% if item.tags %}
             <div class="gallery-tags">
               {% for tag in item.tags %}
-                <span class="gallery-tag">{{ tag }}</span>
+                <button class="gallery-tag" type="button" data-gallery-filter-tag="{{ tag }}">{{ tag }}</button>
               {% endfor %}
             </div>
           {% endif %}
@@ -66,6 +85,8 @@ permalink: /gallery/
     </figure>
   {% endfor %}
 </section>
+
+<p class="gallery-empty" hidden>このタグの画像はまだありません。</p>
 
 <div class="gallery-modal" id="gallery-modal" aria-hidden="true">
   <div class="gallery-modal-backdrop" data-gallery-close></div>
@@ -87,13 +108,25 @@ permalink: /gallery/
     var modalTitle = document.getElementById('gallery-modal-title');
     if (!gallery || !modal || !modalImage || !modalDialog) return;
 
+    var cards = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-card'));
     var triggers = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-link'));
+    var filterButtons = Array.prototype.slice.call(document.querySelectorAll('.gallery-filter-button'));
+    var emptyState = document.querySelector('.gallery-empty');
     var currentIndex = -1;
+    var currentFilter = 'all';
     var touchStartX = null;
     var swipeThreshold = 40;
 
+    var getVisibleTriggers = function () {
+      return triggers.filter(function (trigger) {
+        var card = trigger.closest('.gallery-card');
+        return card && !card.hidden;
+      });
+    };
+
     var renderModal = function (index) {
-      var trigger = triggers[index];
+      var visibleTriggers = getVisibleTriggers();
+      var trigger = visibleTriggers[index];
       if (!trigger) return;
       currentIndex = index;
       var src = trigger.getAttribute('data-gallery-src');
@@ -117,20 +150,27 @@ permalink: /gallery/
     };
 
     var showRelativeImage = function (direction) {
-      if (currentIndex < 0 || !triggers.length) return;
+      var visibleTriggers = getVisibleTriggers();
+      if (currentIndex < 0 || !visibleTriggers.length) return;
       var nextIndex = currentIndex + direction;
       if (nextIndex < 0) {
-        nextIndex = triggers.length - 1;
-      } else if (nextIndex >= triggers.length) {
+        nextIndex = visibleTriggers.length - 1;
+      } else if (nextIndex >= visibleTriggers.length) {
         nextIndex = 0;
       }
       renderModal(nextIndex);
     };
 
     gallery.addEventListener('click', function (event) {
+      var tagTrigger = event.target.closest('[data-gallery-filter-tag]');
+      if (tagTrigger) {
+        applyFilter(tagTrigger.getAttribute('data-gallery-filter-tag'));
+        return;
+      }
       var trigger = event.target.closest('.gallery-link');
       if (!trigger) return;
-      var index = Number(trigger.getAttribute('data-gallery-index'));
+      var visibleTriggers = getVisibleTriggers();
+      var index = visibleTriggers.indexOf(trigger);
       if (Number.isNaN(index)) return;
       openModal(index);
     });
@@ -179,6 +219,31 @@ permalink: /gallery/
 
     var viewContainer = document.querySelector('.gallery-grid');
     var toggleButtons = Array.prototype.slice.call(document.querySelectorAll('.gallery-toggle-button'));
+    var applyFilter = function (filter) {
+      currentFilter = filter;
+      var visibleCount = 0;
+      cards.forEach(function (card) {
+        var tagString = card.getAttribute('data-gallery-tags') || '';
+        var tags = tagString ? tagString.split('|') : [];
+        var matches = filter === 'all' || tags.indexOf(filter) !== -1;
+        card.hidden = !matches;
+        if (matches) visibleCount += 1;
+      });
+      filterButtons.forEach(function (button) {
+        var isActive = button.getAttribute('data-gallery-filter') === filter;
+        button.setAttribute('aria-pressed', String(isActive));
+      });
+      if (emptyState) {
+        emptyState.hidden = visibleCount > 0;
+      }
+      if (modal.getAttribute('aria-hidden') === 'false') {
+        closeModal();
+      }
+      try {
+        window.localStorage.setItem('galleryFilter', filter);
+      } catch (e) {}
+    };
+
     var setView = function (view) {
       if (!viewContainer) return;
       viewContainer.setAttribute('data-gallery-view', view);
@@ -200,9 +265,24 @@ permalink: /gallery/
     }
     setView(preferred);
 
+    var preferredFilter = 'all';
+    try {
+      preferredFilter = window.localStorage.getItem('galleryFilter') || 'all';
+    } catch (e) {}
+    if (!filterButtons.some(function (button) { return button.getAttribute('data-gallery-filter') === preferredFilter; })) {
+      preferredFilter = 'all';
+    }
+    applyFilter(preferredFilter);
+
     toggleButtons.forEach(function (button) {
       button.addEventListener('click', function () {
         setView(button.getAttribute('data-gallery-view'));
+      });
+    });
+
+    filterButtons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        applyFilter(button.getAttribute('data-gallery-filter'));
       });
     });
 
