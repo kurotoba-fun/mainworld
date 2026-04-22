@@ -1847,21 +1847,48 @@
   tags:
   - 灼
   date: '2026-04-16T20:43:52+09:00'
-- src: "/assets/images/gallery/susugaya/HF6lXJaasAEUkf8.jpg"
-  title: 煤ヶ谷
+- src: "/assets/images/gallery/shirabe/HF6ks0jasAUfLTJ.jpg"
+  title: 「は？先輩が死ぬわけないでしょ？」
   tags:
-  - 煤ヶ谷
-  date: '2026-04-16T20:43:44+09:00'
-- src: "/assets/images/gallery/shirose/HF6lXJZasAAXGlE.jpg"
-  title: 白瀬
+  - 調
+  - 死別ネタ
+  date: '2026-04-15T00:02:59+09:00'
+  thumb_position: '58% 20%'
+- src: "/assets/images/gallery/arata/HF6ks0hasAEEQPG.jpg"
+  title: 「…笑えねぇつってんだろうが。」
   tags:
-  - 白瀬
-  date: '2026-04-16T20:43:39+09:00'
+  - 灼
+  - 死別ネタ
+  date: '2026-04-15T00:02:58+09:00'
+  thumb_position: '52% 14%'
+- src: "/assets/images/gallery/kairi/HF6ks0pacAA4-iR.jpg"
+  title: 「……そう。」
+  tags:
+  - 浬
+  - 死別ネタ
+  date: '2026-04-15T00:02:57+09:00'
+  thumb_position: '52% 16%'
 - src: "/assets/images/gallery/amagi/HF6lXJba0AAq7oc.jpg"
-  title: 天城
+  title: 「嘘だ……嘘だ、嘘だ…」
   tags:
   - 天城
-  date: '2026-04-16T20:43:35+09:00'
+  - 死別ネタ
+  date: '2026-04-15T00:02:56+09:00'
+  thumb_position: '46% 20%'
+- src: "/assets/images/gallery/shirose/HF6lXJZasAAXGlE.jpg"
+  title: 「ほんと…馬鹿みたいだ。」
+  tags:
+  - 白瀬
+  - 死別ネタ
+  date: '2026-04-15T00:02:55+09:00'
+  thumb_position: '42% 14%'
+- src: "/assets/images/gallery/susugaya/HF6lXJaasAEUkf8.jpg"
+  title: 「……ほんま、アホやなぁ。」
+  tags:
+  - 煤ヶ谷
+  - 死別ネタ
+  date: '2026-04-15T00:02:54+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/susugaya/HFAuqEia0AApazf.jpg"
   title: 煤ヶ谷
   tags:
