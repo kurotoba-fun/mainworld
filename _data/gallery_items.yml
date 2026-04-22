@@ -1,4 +1,10 @@
 ---
+- src: "/assets/images/gallery/kujo/HGijzE3bAAA1w3s.jpg"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-04-23T06:32:00+09:00'
+  thumb_position: '38% 18%'
 - src: "/assets/images/gallery/tachibana/HGgI4-qasAAw1gY.jpg"
   title: 橘
   tags:
@@ -1781,6 +1787,7 @@
   tags:
   - 九条
   date: '2026-04-16T20:45:18+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/susugaya/HF19Ck7asAE2FXv.jpg"
   title: 煤ヶ谷
   tags:
@@ -1940,12 +1947,14 @@
   title: 調
   tags:
   - 調
+  - 記念
   date: '2026-04-16T20:38:18+09:00'
 - src: "/assets/images/gallery/kujo/kujo.JPG"
   title: 九条
   tags:
   - 九条
   date: '2026-04-11T00:22:58+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/mini-character.jpg"
   date: "2026-04-16T23:06:37+09:00"
   title: "ミニキャラ"
