@@ -1,4 +1,10 @@
 ---
+- src: "/assets/images/gallery/susugaya/HGitPT7aUAAY1Pd.jpg"
+  title: アイコン煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-23T07:17:00+09:00'
+  thumb_position: '50% 50%'
 - src: "/assets/images/gallery/tachibana/HGinLbvagAAZkvj.jpg"
   title: ユーザーと初対面の橘
   tags:
