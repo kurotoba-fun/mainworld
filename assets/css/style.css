@@ -608,13 +608,13 @@ img { max-width: 100%; display: block; }
 .fanart-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  align-items: start;
+  align-items: stretch;
   gap: 16px;
 }
 
 .fanart-post {
   display: flex;
-  align-self: start;
+  align-self: stretch;
   justify-content: center;
   margin: 0;
   padding: 16px;
@@ -640,6 +640,11 @@ img { max-width: 100%; display: block; }
 @media (max-width: 640px) {
   .fanart-list {
     grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .fanart-post {
+    align-self: start;
   }
 
   .gallery-toolbar,
