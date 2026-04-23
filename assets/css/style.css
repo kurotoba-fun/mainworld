@@ -605,9 +605,43 @@ img { max-width: 100%; display: block; }
   color: var(--muted);
 }
 
+.fanart-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  gap: 16px;
+}
+
+.fanart-post {
+  display: flex;
+  align-self: start;
+  justify-content: center;
+  margin: 0;
+  padding: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.fanart-post .twitter-tweet {
+  width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+}
+
+.fanart-empty {
+  margin: 0;
+  color: var(--muted);
+}
+
  
 
 @media (max-width: 640px) {
+  .fanart-list {
+    grid-template-columns: 1fr;
+  }
+
   .gallery-toolbar,
   .gallery-filter {
     flex-direction: column;
