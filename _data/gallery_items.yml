@@ -302,35 +302,41 @@
   title: 「…見すぎ、穴空く。」
   tags:
   - 天城
+  - セリフ付き
   date: '2026-04-21T17:42:00+09:00'
   thumb_position: '62% 16%'
 - src: "/assets/images/gallery/arata/HGap2ZubEAA9hu1.jpg"
   title: 「緊張してんじゃねぇよ、ひよっこが。」
   tags:
+  - セリフ付き
   - 灼
   date: '2026-04-21T17:42:00+09:00'
   thumb_position: '50% 18%'
 - src: "/assets/images/gallery/kairi/HGap2ZwacAAidR5.jpg"
   title: 「私めにお任せを〜…なんちゃって。」
   tags:
+  - セリフ付き
   - 浬
   date: '2026-04-21T17:42:00+09:00'
   thumb_position: '44% 14%'
 - src: "/assets/images/gallery/shirabe/HGap2ZtasAA0pNU.jpg"
   title: 「置いてくっすよ、オジョーサマ。」
   tags:
+  - セリフ付き
   - 調
   date: '2026-04-21T17:42:00+09:00'
   thumb_position: '42% 14%'
 - src: "/assets/images/gallery/shirose/HGaqAtoboAAANSN.jpg"
   title: 「ふふ…さて、本日はどちらへ参られますか？お嬢様。」
   tags:
+  - セリフ付き
   - 白瀬
   date: '2026-04-21T17:42:00+09:00'
   thumb_position: '44% 14%'
 - src: "/assets/images/gallery/susugaya/HGaqAteaUAATnC0.jpg"
   title: 「ええ、なんなりと♪」
   tags:
+  - セリフ付き
   - 煤ヶ谷
   date: '2026-04-21T17:42:00+09:00'
   thumb_position: '50% 16%'
@@ -554,37 +560,44 @@
 - src: "/assets/images/gallery/amagi/HGQuzGCakAAxXtU.jpg"
   title: 「こーいうことすんの、意外？」
   tags:
+  - セリフ付き
   - 天城
   date: '2026-04-19T19:55:00+09:00'
 - src: "/assets/images/gallery/arata/HGQuzGCbQAAElih.jpg"
   title: 「おう、これでいいのか？」
   tags:
+  - セリフ付き
   - 灼
   date: '2026-04-19T19:55:00+09:00'
 - src: "/assets/images/gallery/kairi/HGQ1MDpbEAAuW2q.jpg"
   title: 「今更逃げるとか言わないでよ」
   tags:
+  - セリフ付き
   - 浬
   date: '2026-04-19T19:55:00+09:00'
   thumb_position: '50% 18%'
 - src: "/assets/images/gallery/kairi/HGQvY4oaYAAWyhw.jpg"
   title: 「哩に近づくな。」
   tags:
+  - セリフ付き
   - 浬
   date: '2026-04-19T19:55:00+09:00'
 - src: "/assets/images/gallery/shirabe/HGQuzGGaQAAsRBA.jpg"
   title: 「……なんで、俺じゃねぇんすか」
   tags:
+  - セリフ付き
   - 調
   date: '2026-04-19T19:55:00+09:00'
 - src: "/assets/images/gallery/shirose/HGQvY4nakAApuJM.jpg"
   title: 「はい、捕まえた。」
   tags:
+  - セリフ付き
   - 白瀬
   date: '2026-04-19T19:55:00+09:00'
 - src: "/assets/images/gallery/susugaya/HGQvY4paMAAkZgk.jpg"
   title: 「…お前ええ加減にしぃや？」
   tags:
+  - セリフ付き
   - 煤ヶ谷
   date: '2026-04-19T19:55:00+09:00'
 - src: "/assets/images/gallery/arata/HGPHzakbQAAHUiz.jpg"
@@ -1991,6 +2004,7 @@
   title: 「は？先輩が死ぬわけないでしょ？」
   tags:
   - 調
+  - セリフ付き
   - 死別ネタ
   date: '2026-04-15T00:02:59+09:00'
   thumb_position: '58% 20%'
@@ -1998,12 +2012,14 @@
   title: 「…笑えねぇつってんだろうが。」
   tags:
   - 灼
+  - セリフ付き
   - 死別ネタ
   date: '2026-04-15T00:02:58+09:00'
   thumb_position: '52% 14%'
 - src: "/assets/images/gallery/kairi/HF6ks0pacAA4-iR.jpg"
   title: 「……そう。」
   tags:
+  - セリフ付き
   - 浬
   - 死別ネタ
   date: '2026-04-15T00:02:57+09:00'
@@ -2011,6 +2027,7 @@
 - src: "/assets/images/gallery/amagi/HF6lXJba0AAq7oc.jpg"
   title: 「嘘だ……嘘だ、嘘だ…」
   tags:
+  - セリフ付き
   - 天城
   - 死別ネタ
   date: '2026-04-15T00:02:56+09:00'
@@ -2018,6 +2035,7 @@
 - src: "/assets/images/gallery/shirose/HF6lXJZasAAXGlE.jpg"
   title: 「ほんと…馬鹿みたいだ。」
   tags:
+  - セリフ付き
   - 白瀬
   - 死別ネタ
   date: '2026-04-15T00:02:55+09:00'
@@ -2025,6 +2043,7 @@
 - src: "/assets/images/gallery/susugaya/HF6lXJaasAEUkf8.jpg"
   title: 「……ほんま、アホやなぁ。」
   tags:
+  - セリフ付き
   - 煤ヶ谷
   - 死別ネタ
   date: '2026-04-15T00:02:54+09:00'
