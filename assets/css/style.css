@@ -615,6 +615,7 @@ img { max-width: 100%; display: block; }
 .fanart-post {
   display: flex;
   align-self: stretch;
+  align-items: flex-start;
   justify-content: center;
   margin: 0;
   padding: 16px;
@@ -628,6 +629,22 @@ img { max-width: 100%; display: block; }
   width: 100% !important;
   min-width: 0 !important;
   margin: 0 !important;
+}
+
+.fanart-embed {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.fanart-loading {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 260px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .fanart-empty {
