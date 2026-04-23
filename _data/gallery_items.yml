@@ -1,4 +1,28 @@
 ---
+- src: "assets/images/gallery/shirose/HGjBDPiakAA182b.jpg"
+  title: ボツ集：縛られ白瀬
+  tags:
+  - 白瀬
+  date: '2026-04-23T08:43:00+09:00'
+  thumb_position: '50% 50%'
+- src: "assets/images/gallery/shirabe/HGjBDPkbYAA0VHP.jpg"
+  title: ボツ集：ジャニーズに入社したべべ
+  tags:
+  - 調
+  date: '2026-04-23T08:43:00+09:00'
+  thumb_position: '50% 50%'
+- src: "assets/images/gallery/kairi/HGjBDPjboAA1nib.jpg"
+  title: ボツ集：縛られ浬
+  tags:
+  - 浬
+  date: '2026-04-23T08:43:00+09:00'
+  thumb_position: '50% 50%'
+- src: "assets/images/gallery/amagi/HGjBDPwbUAAi7vf.jpg"
+  title: ボツ集：10年経っても何か召喚する天城
+  tags:
+  - 天城
+  date: '2026-04-23T08:43:00+09:00'
+  thumb_position: '50% 50%'
 - src: "/assets/images/gallery/susugaya/HGitPT7aUAAY1Pd.jpg"
   title: アイコン煤ヶ谷
   tags:
