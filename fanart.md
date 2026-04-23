@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ファンアート
+title: ファンアート（読み込み時間かかります）
 permalink: /fanart/
 ---
 
