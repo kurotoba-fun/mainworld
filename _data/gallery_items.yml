@@ -1,4 +1,46 @@
 ---
+- src: "/assets/images/gallery/amagi/HGlidvUbgAAstxB.jpg"
+  title: シスターの天城
+  tags:
+  - 天城
+  date: '2026-04-23T20:22:00+09:00'
+  thumb_position: '50% 16%'
+- src: "/assets/images/gallery/arata/HGlhXp8aQAAMG82.jpg"
+  title: シスターの灼
+  tags:
+  - 灼
+  date: '2026-04-23T20:22:00+09:00'
+  thumb_position: '48% 16%'
+- src: "/assets/images/gallery/kairi/HGlhXqLbMAArsEr.jpg"
+  title: シスターの浬
+  tags:
+  - 浬
+  date: '2026-04-23T20:22:00+09:00'
+  thumb_position: '34% 18%'
+- src: "/assets/images/gallery/mairu/HGlidvhaoAA0RBH.jpg"
+  title: シスターの哩
+  tags:
+  - 哩
+  date: '2026-04-23T20:22:00+09:00'
+  thumb_position: '50% 16%'
+- src: "/assets/images/gallery/shirabe/HGlhXqPbkAAyuYK.jpg"
+  title: シスターの調
+  tags:
+  - 調
+  date: '2026-04-23T20:22:00+09:00'
+  thumb_position: '42% 16%'
+- src: "/assets/images/gallery/shirose/HGlidvTaUAARKSN.jpg"
+  title: シスターの白瀬
+  tags:
+  - 白瀬
+  date: '2026-04-23T20:22:00+09:00'
+  thumb_position: '42% 16%'
+- src: "/assets/images/gallery/susugaya/HGlidveaMAA0Wpd.jpg"
+  title: シスターの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-23T20:22:00+09:00'
+  thumb_position: '50% 16%'
 - src: "assets/images/gallery/shirose/HGjBDPiakAA182b.jpg"
   title: ボツ集：縛られ白瀬
   tags:
