@@ -1,4 +1,36 @@
 ---
+- src: "/assets/images/gallery/shirabe/HGtDV8rawAAM9fe.jpg"
+  title: 学パロ10万トーク記念
+  tags:
+  - 調
+  - 学パロ
+  - 記念
+  date: '2026-04-25T07:26:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/shirabe/HGqqcEhaUAAy_p0.jpg"
+  title: 副産物の調
+  tags:
+  - 調
+  date: '2026-04-24T20:18:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/susugaya/HGqqcE7agAAa96H.jpg"
+  title: 副産物の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-24T20:18:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/susugaya/HGqqcEZbQAAwXek.jpg"
+  title: 副産物の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-24T20:18:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/susugaya/HGqqcEubgAAYBKU.jpg"
+  title: 副産物の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-24T20:18:00+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/amagi/HGqnNmgbgAAgOyO.jpg"
   title: 騎士の天城
   tags:
