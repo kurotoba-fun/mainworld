@@ -1,4 +1,52 @@
 ---
+- src: "/assets/images/gallery/amagi/HGt8oVabIAAHrr8.jpg"
+  title: 爆イケ☆天城
+  tags:
+  - 天城
+  date: '2026-04-25T11:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/arata/HGt6aJ6aIAAjRxX.jpg"
+  title: 爆イケ☆灼
+  tags:
+  - 灼
+  date: '2026-04-25T11:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/kairi/HGt6aJ6agAAdq9z.jpg"
+  title: 爆イケ☆浬
+  tags:
+  - 浬
+  date: '2026-04-25T11:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/kujo/HGt7BBibQAAdT39.jpg"
+  title: 爆イケ☆九条
+  tags:
+  - 九条
+  date: '2026-04-25T11:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/shirabe/HGt6aJ6bAAAeuWP.jpg"
+  title: 爆イケ☆調
+  tags:
+  - 調
+  date: '2026-04-25T11:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/shirose/HGt7BBgbsAAYtqW.jpg"
+  title: 爆イケ☆白瀬
+  tags:
+  - 白瀬
+  date: '2026-04-25T11:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/susugaya/HGt7BBjbIAAx9yV.jpg"
+  title: 爆イケ☆煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-25T11:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/tachibana/HGt7BBka0AAdz2b.jpg"
+  title: 爆イケ☆橘
+  tags:
+  - 橘
+  date: '2026-04-25T11:34:00+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/amagi/HGtZ1L-aEAAjEGu.jpg"
   title: 「……（なにアレ。）」
   tags:
