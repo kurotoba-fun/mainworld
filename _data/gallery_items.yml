@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/shirabe/HGtSlKQaEAAB781.jpg"
+  title: 副産物の調
+  tags:
+  - 調
+  date: '2026-04-25T08:33:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/shirose/HGtSlKQagAAwM-E.jpg"
+  title: 副産物の白瀬
+  tags:
+  - 白瀬
+  date: '2026-04-25T08:33:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/susugaya/HGtSlKRasAAcW9T.jpg"
+  title: 副産物の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-25T08:33:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/tachibana/HGtSlKNaAAA1wCX.jpg"
+  title: 副産物の橘
+  tags:
+  - 橘
+  date: '2026-04-25T08:33:00+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/amagi/HGtQ_SwaEAASwjW.jpg"
   title: ヘアカラーチェンジ☆天城
   tags:
