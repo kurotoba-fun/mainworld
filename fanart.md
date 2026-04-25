@@ -8,19 +8,42 @@ permalink: /fanart/
 {% assign fanart_posts = site.data.fanart_posts | sort: "posted_at" | reverse %}
 {% assign visible_count = 0 %}
 
+<div class="fanart-note">
+  <p>こちらはX（Twitter）で投稿されたタグ「クロトバFA」の中から許可をいただいたものを掲載しております。</p>
+  <p>現在表示中の投稿は5月末まで掲載予定です。</p>
+  <p>また、投稿が削除されたり鍵がかかると表示がエラーになりますがご了承願います。</p>
+</div>
+
 <div class="fanart-list">
   {% for post in fanart_posts %}
     {% assign expires_timestamp = post.expires_at | date: "%s" %}
     {% if expires_timestamp >= now_timestamp %}
       {% assign visible_count = visible_count | plus: 1 %}
-      <article class="fanart-post" data-fanart-post>
-        <div class="fanart-embed" data-fanart-embed>
-          <template data-fanart-template>
-            {{ post.embed_html }}
-          </template>
-          <p class="fanart-loading">読み込み中...</p>
-        </div>
-      </article>
+      {% if post.layout == "image_card" %}
+        <article class="fanart-post fanart-post--custom">
+          <a class="fanart-card" href="{{ post.post_url }}" target="_blank" rel="noopener">
+            <div class="fanart-card__header">
+              <span class="fanart-card__author">{{ post.author_name }}</span>
+              <span class="fanart-card__handle">@{{ post.author_handle }}</span>
+            </div>
+            <p class="fanart-card__text">{{ post.text }}</p>
+            <img class="fanart-card__image" src="{{ post.image_url }}" alt="{{ post.title }}" loading="lazy">
+            <div class="fanart-card__footer">
+              <span>{{ post.posted_at | date: "%Y年%-m月%-d日" }}</span>
+              <span>Xで見る</span>
+            </div>
+          </a>
+        </article>
+      {% else %}
+        <article class="fanart-post" data-fanart-post>
+          <div class="fanart-embed" data-fanart-embed>
+            <template data-fanart-template>
+              {{ post.embed_html }}
+            </template>
+            <p class="fanart-loading">読み込み中...</p>
+          </div>
+        </article>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </div>

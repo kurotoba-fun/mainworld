@@ -605,6 +605,16 @@ img { max-width: 100%; display: block; }
   color: var(--muted);
 }
 
+.fanart-note {
+  margin: 0 0 24px;
+  color: #dde1e8;
+  line-height: 1.8;
+}
+
+.fanart-note p {
+  margin: 0;
+}
+
 .fanart-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -637,6 +647,54 @@ img { max-width: 100%; display: block; }
   width: 100%;
 }
 
+.fanart-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  color: #0f1419;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #cfd9de;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.fanart-card__header {
+  display: grid;
+  gap: 2px;
+}
+
+.fanart-card__author {
+  color: #0f1419;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.fanart-card__handle,
+.fanart-card__footer {
+  color: #536471;
+  font-size: 0.9rem;
+}
+
+.fanart-card .fanart-card__text {
+  margin: 0;
+  color: #0f1419;
+  line-height: 1.45;
+}
+
+.fanart-card__image {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #eff3f4;
+}
+
+.fanart-card__footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .fanart-loading {
   display: grid;
   place-items: center;
@@ -650,6 +708,13 @@ img { max-width: 100%; display: block; }
 .fanart-empty {
   margin: 0;
   color: var(--muted);
+}
+
+@media (min-width: 641px) {
+  .fanart-post {
+    background: #fff;
+    border-color: #fff;
+  }
 }
 
  
