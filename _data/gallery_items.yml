@@ -1,4 +1,16 @@
 ---
+- src: "/assets/images/gallery/mairu/HG1mmDBbIAA5MCC.jpg"
+  title: シスター哩
+  tags:
+  - 哩
+  date: '2026-04-26T23:17:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/mairu/HG1mmDXawAA6bmm.jpg"
+  title: シスター哩
+  tags:
+  - 哩
+  date: '2026-04-26T23:17:00+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HG1ktHga0AEU4t9.jpg"
   title: ボツ集：灼
   tags:
