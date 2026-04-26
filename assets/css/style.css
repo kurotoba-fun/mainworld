@@ -807,13 +807,47 @@ img { max-width: 100%; display: block; }
   touch-action: pan-y;
 }
 
+.gallery-modal-media {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.04);
+}
+
+.gallery-modal-media.has-description {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
 .gallery-modal-image {
   width: 100%;
   height: auto;
   max-height: 70vh;
   object-fit: contain;
-  border-radius: 10px;
-  background: rgba(255,255,255,0.04);
+  display: block;
+}
+
+.gallery-modal-description {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: clamp(20px, 5vw, 56px);
+  background: linear-gradient(180deg, rgba(5, 7, 12, 0.52), rgba(5, 7, 12, 0.86));
+  color: rgba(255,255,255,0.94);
+  font-size: clamp(0.95rem, 2vw, 1.25rem);
+  line-height: 1.9;
+  opacity: 0;
+  pointer-events: none;
+  text-align: left;
+  text-shadow: 0 2px 14px rgba(0,0,0,0.65);
+  transition: opacity 0.18s ease;
+  white-space: pre-wrap;
+}
+
+.gallery-modal-media.is-description-visible .gallery-modal-description {
+  opacity: 1;
 }
 
 .gallery-modal-title {
@@ -826,6 +860,7 @@ img { max-width: 100%; display: block; }
   position: absolute;
   top: 10px;
   right: 12px;
+  z-index: 2;
   width: 36px;
   height: 36px;
   border-radius: 999px;
@@ -840,6 +875,7 @@ img { max-width: 100%; display: block; }
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 2;
   width: 44px;
   height: 44px;
   border-radius: 999px;

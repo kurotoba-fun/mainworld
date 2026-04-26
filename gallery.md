@@ -54,7 +54,7 @@ permalink: /gallery/
     {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
     {% assign thumb_position = item.thumb_position | default: "50% 50%" %}
     <figure class="gallery-card" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}">
-      <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-index="{{ forloop.index0 }}">
+      <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-description="{{ item.description | default: '' | escape }}" data-gallery-index="{{ forloop.index0 }}">
         <picture>
           {% if webp_match and webp_match.size > 0 %}
             <source data-srcset="{{ thumb_src | relative_url }}" type="image/webp">
@@ -94,7 +94,10 @@ permalink: /gallery/
     <button class="gallery-modal-nav gallery-modal-prev" type="button" aria-label="前の画像" data-gallery-prev>‹</button>
     <button class="gallery-modal-nav gallery-modal-next" type="button" aria-label="次の画像" data-gallery-next>›</button>
     <button class="gallery-modal-close" type="button" aria-label="閉じる" data-gallery-close>×</button>
-    <img class="gallery-modal-image" src="" alt="" id="gallery-modal-image">
+    <div class="gallery-modal-media" data-gallery-description-toggle>
+      <img class="gallery-modal-image" src="" alt="" id="gallery-modal-image">
+      <div class="gallery-modal-description" id="gallery-modal-description" aria-hidden="true"></div>
+    </div>
     <p class="gallery-modal-title" id="gallery-modal-title"></p>
   </div>
 </div>
@@ -104,9 +107,11 @@ permalink: /gallery/
     var gallery = document.querySelector('.gallery-grid');
     var modal = document.getElementById('gallery-modal');
     var modalDialog = modal ? modal.querySelector('.gallery-modal-dialog') : null;
+    var modalMedia = modal ? modal.querySelector('.gallery-modal-media') : null;
     var modalImage = document.getElementById('gallery-modal-image');
     var modalTitle = document.getElementById('gallery-modal-title');
-    if (!gallery || !modal || !modalImage || !modalDialog) return;
+    var modalDescription = document.getElementById('gallery-modal-description');
+    if (!gallery || !modal || !modalImage || !modalDialog || !modalMedia || !modalDescription) return;
 
     var cards = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-card'));
     var triggers = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-link'));
@@ -116,6 +121,10 @@ permalink: /gallery/
     var currentFilter = 'all';
     var touchStartX = null;
     var swipeThreshold = 40;
+    var longPressTimer = null;
+    var longPressStart = null;
+    var longPressDelay = 600;
+    var longPressMoveThreshold = 12;
 
     var getVisibleTriggers = function () {
       return triggers.filter(function (trigger) {
@@ -131,9 +140,14 @@ permalink: /gallery/
       currentIndex = index;
       var src = trigger.getAttribute('data-gallery-src');
       var title = trigger.getAttribute('data-gallery-title');
+      var description = trigger.getAttribute('data-gallery-description') || '';
       modalImage.src = src;
       modalImage.alt = title || 'gallery image';
       modalTitle.textContent = title || '';
+      modalDescription.textContent = description;
+      modalDescription.setAttribute('aria-hidden', 'true');
+      modalMedia.classList.toggle('has-description', Boolean(description.trim()));
+      modalMedia.classList.remove('is-description-visible');
     };
 
     var openModal = function (index) {
@@ -146,7 +160,23 @@ permalink: /gallery/
       modal.setAttribute('aria-hidden', 'true');
       modalImage.src = '';
       modalTitle.textContent = '';
+      modalDescription.textContent = '';
+      modalDescription.setAttribute('aria-hidden', 'true');
+      modalMedia.classList.remove('has-description', 'is-description-visible');
       document.body.classList.remove('is-gallery-modal-open');
+    };
+
+    var toggleDescription = function () {
+      if (!modalMedia.classList.contains('has-description')) return;
+      var isVisible = modalMedia.classList.toggle('is-description-visible');
+      modalDescription.setAttribute('aria-hidden', String(!isVisible));
+    };
+
+    var cancelLongPress = function () {
+      if (!longPressTimer) return;
+      window.clearTimeout(longPressTimer);
+      longPressTimer = null;
+      longPressStart = null;
     };
 
     var showRelativeImage = function (direction) {
@@ -216,6 +246,34 @@ permalink: /gallery/
         showRelativeImage(1);
       }
     }, { passive: true });
+
+    modalMedia.addEventListener('pointerdown', function (event) {
+      if (!modalMedia.classList.contains('has-description')) return;
+      if (event.pointerType === 'mouse' && event.button !== 0) return;
+      longPressStart = { x: event.clientX, y: event.clientY };
+      longPressTimer = window.setTimeout(function () {
+        longPressTimer = null;
+        longPressStart = null;
+        toggleDescription();
+      }, longPressDelay);
+    });
+
+    modalMedia.addEventListener('pointermove', function (event) {
+      if (!longPressStart) return;
+      var deltaX = event.clientX - longPressStart.x;
+      var deltaY = event.clientY - longPressStart.y;
+      if (Math.hypot(deltaX, deltaY) > longPressMoveThreshold) {
+        cancelLongPress();
+      }
+    });
+
+    modalMedia.addEventListener('pointerup', cancelLongPress);
+    modalMedia.addEventListener('pointercancel', cancelLongPress);
+    modalMedia.addEventListener('pointerleave', cancelLongPress);
+    modalMedia.addEventListener('contextmenu', function (event) {
+      if (!modalMedia.classList.contains('has-description')) return;
+      event.preventDefault();
+    });
 
     var viewContainer = document.querySelector('.gallery-grid');
     var toggleButtons = Array.prototype.slice.call(document.querySelectorAll('.gallery-toggle-button'));
