@@ -1,4 +1,58 @@
 ---
+- src: "/assets/images/gallery/amagi/HG1qJkXaEAA630U.jpg"
+  title: 天城の背中
+  tags:
+  - 天城
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/arata/HG1p8WubMAAE7hW.jpg"
+  title: 灼の背中
+  tags:
+  - 灼
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/kairi/HG1p8WrakAAgy-R.jpg"
+  title: 浬の背中
+  tags:
+  - 浬
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/kujo/HG1qJkCaMAAHvHD.jpg"
+  title: 九条の背中
+  tags:
+  - 九条
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/mairu/HG1qagibIAA62RF.jpg"
+  title: 哩の背中
+  tags:
+  - 哩
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/shirabe/HG1p8WxbwAAMT2i.jpg"
+  title: 調の背中
+  tags:
+  - 調
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/shirose/HG1qJj8b0AA0jfL.jpg"
+  title: 白瀬の背中
+  tags:
+  - 白瀬
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/susugaya/HG1qagbboAEEjQG.jpg"
+  title: 煤ヶ谷の背中
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
+- src: "/assets/images/gallery/tachibana/HG1qJj_bUAACHiL.jpg"
+  title: 橘の背中
+  tags:
+  - 橘
+  date: '2026-04-26T23:34:00+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/shirabe/HG1pC_haEAAT-EC.jpg"
   title: 学パロ調
   tags:
