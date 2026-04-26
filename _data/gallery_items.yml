@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/arata/HG1ktHga0AEU4t9.jpg"
+  title: ボツ集：灼
+  tags:
+  - 灼
+  - ボツ
+  date: '2026-04-26T23:09:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/shirose/HG1flXnagAAeMTe.jpg"
+  title: ボツ集：白瀬
+  tags:
+  - 白瀬
+  - ボツ
+  date: '2026-04-26T22:47:00+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/kairi/HG1NqHVawAAqtrB.jpg"
   title: 浬の追憶
   tags:
@@ -118,24 +132,28 @@
 - src: "/assets/images/gallery/shirabe/HGtSlKQaEAAB781.jpg"
   title: 副産物の調
   tags:
+  - ボツ
   - 調
   date: '2026-04-25T08:33:00+09:00'
   thumb_position: '50% 14%'
 - src: "/assets/images/gallery/shirose/HGtSlKQagAAwM-E.jpg"
   title: 副産物の白瀬
   tags:
+  - ボツ
   - 白瀬
   date: '2026-04-25T08:33:00+09:00'
   thumb_position: '50% 14%'
 - src: "/assets/images/gallery/susugaya/HGtSlKRasAAcW9T.jpg"
   title: 副産物の煤ヶ谷
   tags:
+  - ボツ
   - 煤ヶ谷
   date: '2026-04-25T08:33:00+09:00'
   thumb_position: '50% 14%'
 - src: "/assets/images/gallery/tachibana/HGtSlKNaAAA1wCX.jpg"
   title: 副産物の橘
   tags:
+  - ボツ
   - 橘
   date: '2026-04-25T08:33:00+09:00'
   thumb_position: '50% 14%'
@@ -198,24 +216,28 @@
 - src: "/assets/images/gallery/shirabe/HGqqcEhaUAAy_p0.jpg"
   title: 副産物の調
   tags:
+  - ボツ
   - 調
   date: '2026-04-24T20:18:00+09:00'
   thumb_position: '50% 14%'
 - src: "/assets/images/gallery/susugaya/HGqqcE7agAAa96H.jpg"
   title: 副産物の煤ヶ谷
   tags:
+  - ボツ
   - 煤ヶ谷
   date: '2026-04-24T20:18:00+09:00'
   thumb_position: '50% 14%'
 - src: "/assets/images/gallery/susugaya/HGqqcEZbQAAwXek.jpg"
   title: 副産物の煤ヶ谷
   tags:
+  - ボツ
   - 煤ヶ谷
   date: '2026-04-24T20:18:00+09:00'
   thumb_position: '50% 14%'
 - src: "/assets/images/gallery/susugaya/HGqqcEubgAAYBKU.jpg"
   title: 副産物の煤ヶ谷
   tags:
+  - ボツ
   - 煤ヶ谷
   date: '2026-04-24T20:18:00+09:00'
   thumb_position: '50% 14%'
@@ -312,24 +334,28 @@
 - src: "/assets/images/gallery/amagi/HGlj6P_aEAA95lp.jpg"
   title: 副産物の天城
   tags:
+  - ボツ
   - 天城
   date: '2026-04-23T20:32:00+09:00'
   thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HGlj6P_aQAAh1Yy.jpg"
   title: 副産物の灼
   tags:
+  - ボツ
   - 灼
   date: '2026-04-23T20:32:00+09:00'
   thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HGlj6P_bMAABmpT.jpg"
   title: 副産物の灼
   tags:
+  - ボツ
   - 灼
   date: '2026-04-23T20:32:00+09:00'
   thumb_position: '42% 16%'
 - src: "/assets/images/gallery/susugaya/HGlj6QAbsAAFwyE.jpg"
   title: 副産物の煤ヶ谷
   tags:
+  - ボツ
   - 煤ヶ谷
   date: '2026-04-23T20:32:00+09:00'
   thumb_position: '50% 16%'
@@ -379,23 +405,27 @@
   title: ボツ集：縛られ白瀬
   tags:
   - 白瀬
+  - ボツ
   date: '2026-04-23T08:43:00+09:00'
   thumb_position: '50% 50%'
 - src: "assets/images/gallery/shirabe/HGjBDPkbYAA0VHP.jpg"
   title: ボツ集：ジャニーズに入社したべべ
   tags:
+  - ボツ
   - 調
   date: '2026-04-23T08:43:00+09:00'
   thumb_position: '50% 50%'
 - src: "assets/images/gallery/kairi/HGjBDPjboAA1nib.jpg"
   title: ボツ集：縛られ浬
   tags:
+  - ボツ
   - 浬
   date: '2026-04-23T08:43:00+09:00'
   thumb_position: '50% 50%'
 - src: "assets/images/gallery/amagi/HGjBDPwbUAAi7vf.jpg"
   title: ボツ集：10年経っても何か召喚する天城
   tags:
+  - ボツ
   - 天城
   date: '2026-04-23T08:43:00+09:00'
   thumb_position: '50% 50%'
