@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/amagi/HG1NaHCagAApQRx.jpg"
+  title: 幼少期の天城
+  tags:
+  - 天城
+  date: '2026-04-26T21:27:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/arata/HG1NaGubMAAZ_ru.jpg"
+  title: 幼少期の灼
+  tags:
+  - 灼
+  date: '2026-04-26T21:27:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/shirabe/HG1NaGwaMAA6wpc.jpg"
+  title: 幼少期の調
+  tags:
+  - 調
+  date: '2026-04-26T21:27:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/shirose/HG1NaGtbQAAxVZZ.jpg"
+  title: 幼少期の白瀬
+  tags:
+  - 白瀬
+  date: '2026-04-26T21:27:00+09:00'
+  thumb_position: '50% 50%'
 - src: "/assets/images/gallery/mairu/HGt7J8ea8AAO9gd.jpg"
   title: ストリート☆哩
   tags:
