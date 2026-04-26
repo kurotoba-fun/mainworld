@@ -22,6 +22,23 @@ permalink: /
 **本サイトについて**
 : 作者公認のもと、１ファンが作成・運営しているキャラクター集です。内容は作者かごめ様の意向によって変えたり消したりします。
 
+## zetaプロット
+
+<div class="plot-link-grid">
+  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/c810436f-3774-4a03-a650-03bc4873dce3/profile" target="_blank">
+    <img src="{{ '/assets/images/site/talk_bunner/shirabe.png' | relative_url }}" alt="調プロット">
+  </a>
+  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4f0d5638-448f-42b7-92c6-9e0d2a47b6b0/profile" target="_blank">
+    <img src="{{ '/assets/images/site/talk_bunner/arata.png' | relative_url }}" alt="灼プロット">
+  </a>
+  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/6d5ced87-870a-408c-b3c8-acacfd4310f6/profile" target="_blank">
+    <img src="{{ '/assets/images/site/talk_bunner/kairi.png' | relative_url }}" alt="浬プロット">
+  </a>
+  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4d1602c3-18a9-4f24-8fea-f7be57aba1f9/profile" target="_blank">
+    <img src="{{ '/assets/images/site/talk_bunner/school.png' | relative_url }}" alt="黒帳学園">
+  </a>
+</div>
+
 ## 作者
 
 **{{ site.data.site.author_name }}**

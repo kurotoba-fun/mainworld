@@ -263,6 +263,29 @@ img { max-width: 100%; display: block; }
   border-radius: 6px;
 }
 
+.plot-link-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 18px 0 28px;
+}
+.plot-link-card {
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.04);
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+.plot-link-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.2);
+}
+.plot-link-card img {
+  width: 100%;
+  height: auto;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -387,6 +410,11 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 640px) {
+  .plot-link-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
   .header-inner {
     flex-direction: column;
     align-items: stretch;
