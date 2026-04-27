@@ -1,4 +1,33 @@
 ---
+- src: "/assets/images/gallery/kairi/HG7Je1EbcAAp8L7.jpg"
+  title: 浬の秘話
+  tags:
+  - 浬
+  date: '2026-04-28T01:08:00+09:00'
+  thumb_position: '50% 32%'
+  description: |-
+    「https://x.com/KUROTOBA_KGM/status/2048796417343586318」にて言及
+- src: "/assets/images/gallery/shirose/HG7DmoqbAAAXJVy.jpg"
+  title: 言わない本音
+  tags:
+  - 白瀬
+  - セリフ付き
+  date: '2026-04-28T00:42:00+09:00'
+  thumb_position: '50% 30%'
+  description: |-
+    {「ごめんね。」
+- src: "/assets/images/gallery/tachibana/HG6-mZeakAA7OCt.jpg"
+  title: 橘
+  tags:
+  - 橘
+  date: '2026-04-28T00:20:00+09:00'
+  thumb_position: '50% 22%'
+- src: "/assets/images/gallery/tachibana/HG69dPUakAAGBly.jpg"
+  title: 橘
+  tags:
+  - 橘
+  date: '2026-04-28T00:20:00+09:00'
+  thumb_position: '50% 32%'
 - src: "/assets/images/gallery/kujo/HG59QrYawAAUsTc.jpg"
   title: 短髪九条
   tags:
