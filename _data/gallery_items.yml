@@ -1,4 +1,77 @@
 ---
+- src: "/assets/images/gallery/kujo/HG55Ay-bAAAS7n_.jpg"
+  title: 和服の九条
+  tags:
+  - 九条
+  date: '2026-04-27T19:16:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/kujo/HG55Ay9aoAAGeC5.jpg"
+  title: 和服の九条
+  tags:
+  - 九条
+  date: '2026-04-27T19:16:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/tachibana/HG55AxfaQAAha04.jpg"
+  title: 和服の橘
+  tags:
+  - 橘
+  date: '2026-04-27T19:16:00+09:00'
+  thumb_position: '50% 28%'
+- src: "/assets/images/gallery/tachibana/HG55Axmb0AAmOap.jpg"
+  title: 和服の橘
+  tags:
+  - 橘
+  date: '2026-04-27T19:16:00+09:00'
+  thumb_position: '50% 22%'
+- src: "/assets/images/gallery/shirose/HG5c9uJa0AA2R_V.jpg"
+  title: 「…熱心にどうも。」
+  tags:
+  - 白瀬
+  - セリフ付き
+  date: '2026-04-27T17:14:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/shirabe/HG4ddwXa4AAH3Ap.jpg"
+  title: 受け？調
+  tags:
+  - 調
+  date: '2026-04-27T12:36:00+09:00'
+  thumb_position: '50% 22%'
+- src: "/assets/images/gallery/shirabe/HG4ddwZa0AASPC5.jpg"
+  title: 受け？調
+  tags:
+  - 調
+  date: '2026-04-27T12:36:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/susugaya/HG4Z8H_aYAAbKrk.jpg"
+  title: 受けガヤ
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-27T12:21:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/susugaya/HG4Z8IDaQAA3dfp.jpg"
+  title: 受けガヤ
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-27T12:21:00+09:00'
+  thumb_position: '50% 22%'
+- src: "/assets/images/gallery/susugaya/HG4Z8IGbMAAP1aA.jpg"
+  title: 受けガヤ
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-27T12:21:00+09:00'
+  thumb_position: '50% 20%'
+- src: "/assets/images/gallery/susugaya/HG4KNnMaoAEeaX6.jpg"
+  title: 投げキッ煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-27T11:12:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/kairi/HG4GE_CbEAA_5DN.jpg"
+  title: 浬アップ
+  tags:
+  - 浬
+  date: '2026-04-27T10:54:00+09:00'
+  thumb_position: '50% 34%'
 - src: "/assets/images/gallery/shirose/HG3875nbAAAYlgS.jpg"
   title: 「…随分と元気な子だね、きみは」
   tags:
