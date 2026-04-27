@@ -96,6 +96,7 @@ permalink: /gallery/
     <button class="gallery-modal-close" type="button" aria-label="閉じる" data-gallery-close>×</button>
     <div class="gallery-modal-media" data-gallery-description-toggle>
       <img class="gallery-modal-image" src="" alt="" id="gallery-modal-image">
+      <button class="gallery-modal-alt-button" type="button" aria-label="説明文を表示" aria-pressed="false" data-gallery-alt-toggle hidden>ALT</button>
       <div class="gallery-modal-description" id="gallery-modal-description" aria-hidden="true"></div>
     </div>
     <p class="gallery-modal-title" id="gallery-modal-title"></p>
@@ -111,7 +112,8 @@ permalink: /gallery/
     var modalImage = document.getElementById('gallery-modal-image');
     var modalTitle = document.getElementById('gallery-modal-title');
     var modalDescription = document.getElementById('gallery-modal-description');
-    if (!gallery || !modal || !modalImage || !modalDialog || !modalMedia || !modalDescription) return;
+    var modalAltButton = modal ? modal.querySelector('[data-gallery-alt-toggle]') : null;
+    if (!gallery || !modal || !modalImage || !modalDialog || !modalMedia || !modalDescription || !modalAltButton) return;
 
     var cards = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-card'));
     var triggers = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-link'));
@@ -121,10 +123,6 @@ permalink: /gallery/
     var currentFilter = 'all';
     var touchStartX = null;
     var swipeThreshold = 40;
-    var longPressTimer = null;
-    var longPressStart = null;
-    var longPressDelay = 600;
-    var longPressMoveThreshold = 12;
 
     var getVisibleTriggers = function () {
       return triggers.filter(function (trigger) {
@@ -146,8 +144,12 @@ permalink: /gallery/
       modalTitle.textContent = title || '';
       modalDescription.textContent = description;
       modalDescription.setAttribute('aria-hidden', 'true');
-      modalMedia.classList.toggle('has-description', Boolean(description.trim()));
+      var hasDescription = Boolean(description.trim());
+      modalMedia.classList.toggle('has-description', hasDescription);
       modalMedia.classList.remove('is-description-visible');
+      modalAltButton.hidden = !hasDescription;
+      modalAltButton.setAttribute('aria-pressed', 'false');
+      modalAltButton.setAttribute('aria-label', '説明文を表示');
     };
 
     var openModal = function (index) {
@@ -163,6 +165,9 @@ permalink: /gallery/
       modalDescription.textContent = '';
       modalDescription.setAttribute('aria-hidden', 'true');
       modalMedia.classList.remove('has-description', 'is-description-visible');
+      modalAltButton.hidden = true;
+      modalAltButton.setAttribute('aria-pressed', 'false');
+      modalAltButton.setAttribute('aria-label', '説明文を表示');
       document.body.classList.remove('is-gallery-modal-open');
     };
 
@@ -170,13 +175,8 @@ permalink: /gallery/
       if (!modalMedia.classList.contains('has-description')) return;
       var isVisible = modalMedia.classList.toggle('is-description-visible');
       modalDescription.setAttribute('aria-hidden', String(!isVisible));
-    };
-
-    var cancelLongPress = function () {
-      if (!longPressTimer) return;
-      window.clearTimeout(longPressTimer);
-      longPressTimer = null;
-      longPressStart = null;
+      modalAltButton.setAttribute('aria-pressed', String(isVisible));
+      modalAltButton.setAttribute('aria-label', isVisible ? '説明文を非表示' : '説明文を表示');
     };
 
     var showRelativeImage = function (direction) {
@@ -216,6 +216,10 @@ permalink: /gallery/
       }
       if (event.target.closest('[data-gallery-next]')) {
         showRelativeImage(1);
+        return;
+      }
+      if (event.target.closest('[data-gallery-alt-toggle]')) {
+        toggleDescription();
       }
     });
 
@@ -246,34 +250,6 @@ permalink: /gallery/
         showRelativeImage(1);
       }
     }, { passive: true });
-
-    modalMedia.addEventListener('pointerdown', function (event) {
-      if (!modalMedia.classList.contains('has-description')) return;
-      if (event.pointerType === 'mouse' && event.button !== 0) return;
-      longPressStart = { x: event.clientX, y: event.clientY };
-      longPressTimer = window.setTimeout(function () {
-        longPressTimer = null;
-        longPressStart = null;
-        toggleDescription();
-      }, longPressDelay);
-    });
-
-    modalMedia.addEventListener('pointermove', function (event) {
-      if (!longPressStart) return;
-      var deltaX = event.clientX - longPressStart.x;
-      var deltaY = event.clientY - longPressStart.y;
-      if (Math.hypot(deltaX, deltaY) > longPressMoveThreshold) {
-        cancelLongPress();
-      }
-    });
-
-    modalMedia.addEventListener('pointerup', cancelLongPress);
-    modalMedia.addEventListener('pointercancel', cancelLongPress);
-    modalMedia.addEventListener('pointerleave', cancelLongPress);
-    modalMedia.addEventListener('contextmenu', function (event) {
-      if (!modalMedia.classList.contains('has-description')) return;
-      event.preventDefault();
-    });
 
     var viewContainer = document.querySelector('.gallery-grid');
     var toggleButtons = Array.prototype.slice.call(document.querySelectorAll('.gallery-toggle-button'));
