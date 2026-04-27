@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/shirose/HG3875nbAAAYlgS.jpg"
+  title: 「…随分と元気な子だね、きみは」
+  tags:
+  - 白瀬
+  - セリフ付き
+  date: '2026-04-27T10:17:00+09:00'
+  thumb_position: '50% 30%'
+  description: |-
+    「…随分と元気な子だね、きみは」
+
+    （訳：うるせぇな）
+- src: "/assets/images/gallery/shirose/HG365JZaIAA-Zn6.jpg"
+  title: 覗き込む白瀬
+  tags:
+  - 白瀬
+  date: '2026-04-27T10:05:00+09:00'
+  thumb_position: '50% 28%'
+- src: "/assets/images/gallery/susugaya/HG32GMwawAAAmrC.jpg"
+  title: 「ようおこし♡」
+  tags:
+  - 煤ヶ谷
+  - セリフ付き
+  date: '2026-04-27T09:44:00+09:00'
+  thumb_position: '50% 24%'
 - src: "/assets/images/gallery/kairi/HG3Nr9IaoAAfBsJ.jpg"
   title: 浬の過去
   tags:

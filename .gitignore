@@ -36,3 +36,4 @@ doc/
 .DS_Store
 Thumbs.db
 _config_dev.yml
+AGENTS.md
