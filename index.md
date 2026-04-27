@@ -34,6 +34,12 @@ permalink: /
   <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/6d5ced87-870a-408c-b3c8-acacfd4310f6/profile" target="_blank">
     <img src="{{ '/assets/images/site/talk_bunner/kairi.png' | relative_url }}" alt="浬プロット">
   </a>
+  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/a5518689-c7fa-4a2b-a489-9b0ff4480e2d/profile" target="_blank">
+    <img src="{{ '/assets/images/site/talk_bunner/susugaya.png' | relative_url }}" alt="煤ヶ谷プロット">
+  </a>
+  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4e25b7da-9f8c-4cd6-94c9-87ededfb9ed4/profile" target="_blank">
+    <img src="{{ '/assets/images/site/talk_bunner/amagi.png' | relative_url }}" alt="天城プロット">
+  </a>
   <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4d1602c3-18a9-4f24-8fea-f7be57aba1f9/profile" target="_blank">
     <img src="{{ '/assets/images/site/talk_bunner/school.png' | relative_url }}" alt="黒帳学園">
   </a>
