@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/kujo/HG59QrYawAAUsTc.jpg"
+  title: 短髪九条
+  tags:
+  - 九条
+  date: '2026-04-27T19:35:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/kujo/HG59Qrab0AABA5C.jpg"
+  title: 短髪九条
+  tags:
+  - 九条
+  date: '2026-04-27T19:35:00+09:00'
+  thumb_position: '50% 28%'
+- src: "/assets/images/gallery/kujo/HG59QrbaEAAjCbk.jpg"
+  title: 短髪九条
+  tags:
+  - 九条
+  date: '2026-04-27T19:35:00+09:00'
+  thumb_position: '50% 20%'
+- src: "/assets/images/gallery/kujo/HG59QrdaIAAaH7Z.jpg"
+  title: 短髪九条
+  tags:
+  - 九条
+  date: '2026-04-27T19:35:00+09:00'
+  thumb_position: '50% 24%'
 - src: "/assets/images/gallery/kujo/HG55Ay-bAAAS7n_.jpg"
   title: 和服の九条
   tags:
