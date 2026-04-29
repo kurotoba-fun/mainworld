@@ -1,4 +1,58 @@
 ---
+- src: "/assets/images/gallery/amagi/HHCGIA7bQAAnfTp.jpg"
+  title: 天城とディズニーデート
+  tags:
+  - 天城
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '50% 22%'
+- src: "/assets/images/gallery/arata/HHCGIAvbQAAEiSl.jpg"
+  title: 灼とディズニーデート
+  tags:
+  - 灼
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/kairi/HHCGIAxaMAAci_5.jpg"
+  title: 浬とディズニーデート
+  tags:
+  - 浬
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '48% 24%'
+- src: "/assets/images/gallery/kujo/HHCGZ9EacAAyZ6r.jpg"
+  title: 九条とディズニーデート
+  tags:
+  - 九条
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '54% 22%'
+- src: "/assets/images/gallery/mairu/HHCUiksaMAA6RNn.jpg"
+  title: 哩とディズニーデート
+  tags:
+  - 哩
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '50% 22%'
+- src: "/assets/images/gallery/shirabe/HHCGIA7bsAACWYX.jpg"
+  title: 調とディズニーデート
+  tags:
+  - 調
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '54% 24%'
+- src: "/assets/images/gallery/shirose/HHCGZ84a4AEcGlp.jpg"
+  title: 白瀬とディズニーデート
+  tags:
+  - 白瀬
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '50% 20%'
+- src: "/assets/images/gallery/susugaya/HHCGZ85bgAAyYdF.jpg"
+  title: 煤ヶ谷とディズニーデート
+  tags:
+  - 煤ヶ谷
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '50% 22%'
+- src: "/assets/images/gallery/tachibana/HHCGZ8-aAAANAcN.jpg"
+  title: 橘とディズニーデート
+  tags:
+  - 橘
+  date: '2026-04-29T09:32:00+09:00'
+  thumb_position: '50% 24%'
 - src: "/assets/images/gallery/arata/HG9hOynaYAA_pwy.jpg"
   title: 戦果へ経た灼
   tags:
