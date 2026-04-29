@@ -1,4 +1,34 @@
 ---
+- src: "/assets/images/gallery/arata/HHFBvY3akAEWJA9.jpg"
+  title: ハグをせびる灼
+  tags:
+  - 灼
+  date: '2026-04-29T23:10:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/kairi/HHFBvYeaQAA6Hlq.jpg"
+  title: ハグをせびる浬
+  tags:
+  - 浬
+  date: '2026-04-29T23:10:00+09:00'
+  thumb_position: '46% 24%'
+- src: "/assets/images/gallery/kairi/HHFBvYoaIAA8Vo-.jpg"
+  title: ハグをせびる浬
+  tags:
+  - 浬
+  date: '2026-04-29T23:10:00+09:00'
+  thumb_position: '48% 22%'
+- src: "/assets/images/gallery/shirabe/HHEpeRmasAAIPsW.jpg"
+  title: 抱っこをせびる調
+  tags:
+  - 調
+  date: '2026-04-29T23:10:00+09:00'
+  thumb_position: '38% 26%'
+- src: "/assets/images/gallery/shirabe/HHFBvYdbgAA7287.jpg"
+  title: 抱っこをせびる調
+  tags:
+  - 調
+  date: '2026-04-29T23:10:00+09:00'
+  thumb_position: '50% 24%'
 - src: "/assets/images/gallery/kairi/HHDoigOaAAAVuxp.jpg"
   title: キレ浬
   tags:
