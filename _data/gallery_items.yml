@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/arata/HG8bJUXaMAAc91W.jpg"
+  title: 副産物の灼
+  tags:
+  - 灼
+  - ボツ
+  date: '2026-04-28T07:05:00+09:00'
+  thumb_position: '45% 50%'
+- src: "/assets/images/gallery/kuro-shirabe/HG8bKRibAAA3acf.jpg"
+  title: 副産物の黒調
+  tags:
+  - 黒調
+  - ボツ
+  date: '2026-04-28T07:05:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/shirose/HG8bJ8uaUAAhBzX.jpg"
+  title: 副産物の白瀬
+  tags:
+  - 白瀬
+  - ボツ
+  date: '2026-04-28T07:05:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/susugaya/HG8bJotaQAE-VPW.jpg"
+  title: 副産物の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  - ボツ
+  date: '2026-04-28T07:05:00+09:00'
+  thumb_position: '50% 22%'
 - src: "/assets/images/gallery/kairi/HG7Je1EbcAAp8L7.jpg"
   title: 浬の秘話
   tags:
