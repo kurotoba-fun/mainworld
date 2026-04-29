@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/arata/HG9hOynaYAA_pwy.jpg"
+  title: 戦果へ経た灼
+  tags:
+  - 灼
+  date: '2026-04-28T12:11:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/arata/HG9ZmPrbEAAFhUl.jpg"
+  title: ちび灼
+  tags:
+  - 灼
+  date: '2026-04-28T11:38:00+09:00'
+  thumb_position: '50% 50%'
+  description: |-
+    「なんで……。」
 - src: "/assets/images/gallery/arata/HG9ZOgpbsAAN1M0.jpg"
   title: ちび灼
   tags:
