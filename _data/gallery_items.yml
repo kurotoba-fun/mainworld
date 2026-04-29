@@ -1,4 +1,16 @@
 ---
+- src: "/assets/images/gallery/arata/HG9ZOgpbsAAN1M0.jpg"
+  title: ちび灼
+  tags:
+  - 灼
+  date: '2026-04-28T11:36:00+09:00'
+  thumb_position: '50% 20%'
+- src: "/assets/images/gallery/arata/HG9TBXaaoAEKhUI.jpg"
+  title: ちび灼
+  tags:
+  - 灼
+  date: '2026-04-28T11:09:00+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/kuro-shirabe/HG8i0yEaoAAwq5k.jpg"
   title: 副産物の黒調
   tags:
