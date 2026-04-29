@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/kuro-shirabe/HG8i0yEaoAAwq5k.jpg"
+  title: 副産物の黒調
+  tags:
+  - 黒調
+  - ボツ
+  date: '2026-04-28T07:38:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/shirabe/HG8i0yHb0AAznhI.jpg"
+  title: 副産物の調
+  tags:
+  - 調
+  - ボツ
+  date: '2026-04-28T07:38:00+09:00'
+  thumb_position: '42% 24%'
+- src: "/assets/images/gallery/shirabe/HG8i0yYbMAA-9ec.jpg"
+  title: 副産物の調
+  tags:
+  - 調
+  - ボツ
+  date: '2026-04-28T07:38:00+09:00'
+  thumb_position: '58% 24%'
+- src: "/assets/images/gallery/shirabe/HG8i0yYbsAAmh7o.jpg"
+  title: 副産物の調
+  tags:
+  - 調
+  - ボツ
+  date: '2026-04-28T07:38:00+09:00'
+  thumb_position: '58% 24%'
 - src: "/assets/images/gallery/arata/HG8bJUXaMAAc91W.jpg"
   title: 副産物の灼
   tags:
