@@ -1,4 +1,58 @@
 ---
+- src: "/assets/images/gallery/amagi/HHOnzFDbcAAyY_w.jpg"
+  title: ユーザーに庇われた天城
+  tags:
+  - 天城
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '70% 45%'
+- src: "/assets/images/gallery/arata/HHOnzFDb0AAv3pb.jpg"
+  title: ユーザーに庇われた灼
+  tags:
+  - 灼
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '25% 42%'
+- src: "/assets/images/gallery/kairi/HHOnzFBaQAALxTV.jpg"
+  title: ユーザーに庇われた浬
+  tags:
+  - 浬
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '35% 40%'
+- src: "/assets/images/gallery/kujo/HHOo6lhbAAAS-_L.jpg"
+  title: ユーザーに庇われた九条
+  tags:
+  - 九条
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '62% 42%'
+- src: "/assets/images/gallery/shirose/HHOnzFAbcAAkEVl.jpg"
+  title: ユーザーに庇われた白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '35% 42%'
+- src: "/assets/images/gallery/shirose/HHOo6llbcAAYZhl.jpg"
+  title: ユーザーに庇われた白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '48% 42%'
+- src: "/assets/images/gallery/susugaya/HHOtBE8bYAEYdOn.jpg"
+  title: ユーザーに庇われた煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '62% 42%'
+- src: "/assets/images/gallery/susugaya/HHOtBFDboAAV2WH.jpg"
+  title: ユーザーに庇われた煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '58% 42%'
+- src: "/assets/images/gallery/tachibana/HHOo6ljaYAEv_WT.jpg"
+  title: ユーザーに庇われた橘
+  tags:
+  - 橘
+  date: '2026-05-01T19:53:00+09:00'
+  thumb_position: '35% 42%'
 - src: "/assets/images/gallery/amagi/HHNQYHPbsAAihyj.jpg"
   title: 副産物の天城
   tags:
