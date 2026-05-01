@@ -8,6 +8,30 @@
   thumb_position: '50% 50%'
   description: |-
     「…教えなさいよ、俺ばっかり不公平でしょうが。」
+- src: "/assets/images/gallery/kujo/HHJlx8-aIAABJpm.jpg"
+  title: 副産物の九条
+  tags:
+  - 九条
+  date: '2026-04-30T20:26:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/kujo/HHJlx82aMAAxzZG.jpg"
+  title: 副産物の九条
+  tags:
+  - 九条
+  date: '2026-04-30T20:26:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/tachibana/HHJlx80a4AAbSNT.jpg"
+  title: 副産物の橘
+  tags:
+  - 橘
+  date: '2026-04-30T20:26:00+09:00'
+  thumb_position: '50% 22%'
+- src: "/assets/images/gallery/tachibana/HHJlx88bAAAIaU-.jpg"
+  title: 副産物の橘
+  tags:
+  - 橘
+  date: '2026-04-30T20:26:00+09:00'
+  thumb_position: '38% 50%'
 - src: "/assets/images/gallery/susugaya/HHISfSWasAAWxLk.jpg"
   title: 副産物の煤ヶ谷
   tags:
