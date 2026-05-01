@@ -1,4 +1,10 @@
 ---
+- src: "/assets/images/gallery/amagi/HHKIuLrb0AAVloX.jpg"
+  title: 天城メイン画像
+  tags:
+  - 天城
+  date: '2026-04-30T22:59:00+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/kairi/HHJ0qDGbQAAfxsz.jpg"
   title: ゲームスクショ元画像浬
   tags:
