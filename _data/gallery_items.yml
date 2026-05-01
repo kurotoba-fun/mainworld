@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/shirabe/HHOzy4haMAEJ50c.jpg"
+  title: メガネの調
+  tags:
+  - 調
+  date: '2026-05-01T20:46:00+09:00'
+  thumb_position: '55% 36%'
+- src: "/assets/images/gallery/shirabe/HHOzy4jaoAArLIp.jpg"
+  title: メガネの調
+  tags:
+  - 調
+  date: '2026-05-01T20:46:00+09:00'
+  thumb_position: '38% 36%'
+- src: "/assets/images/gallery/shirabe/HHOzy4kaQAAUdur.jpg"
+  title: メガネの調
+  tags:
+  - 調
+  date: '2026-05-01T20:46:00+09:00'
+  thumb_position: '62% 36%'
+- src: "/assets/images/gallery/shirabe/HHOzy4kagAAZpDX.jpg"
+  title: メガネの調
+  tags:
+  - 調
+  date: '2026-05-01T20:46:00+09:00'
+  thumb_position: '38% 36%'
 - src: "/assets/images/gallery/shirabe/HHOupcUakAAwk4d.jpg"
   title: 副産物の調
   tags:
@@ -3713,3 +3737,479 @@
   title: "ツムジ丸"
   tags:
     - ツムジ丸
+
+- src: "/assets/images/gallery/amagi/HHPRVC7bMAA2wpR.jpg"
+  title: 過去デザインの天城
+  tags:
+  - 天城
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/amagi/HHPSt2oaYAADJ3f.jpg"
+  title: 過去デザインの天城
+  tags:
+  - 天城
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPRv9JaQAADn8T.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPRv9MboAAKYbT.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPSGxbaYAEjRTy.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPSGxcaoAA4v-B.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPSGxcbYAAKvpZ.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPSGxdboAAprix.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPTKXNawAA0YFJ.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPTKXSb0AAcXzk.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUKK7bwAAzh0P.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUKK9a0AIlglh.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUKLJaAAA2-E6.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUKLnbwAAPuRf.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUe1maYAAP6_n.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUe1nbsAAZfrP.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUe1oa8AAoKN1.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUe1raIAAqahu.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUyEwakAM3MMK.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUyExakAAy09Y.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUyEybIAAPYPy.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPUyEzbgAIvO7A.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPV4SDaAAAhzK9.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPV4SDbkAAe_tN.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPV4SFbEAAgPxE.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVAIVagAASuEQ.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVAIYasAE_h_n.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVAIabkAAZXsk.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVAIcbMAAnmSo.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVOn8aoAA5ZY8.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVOnoaEAAPbNp.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVOnpasAE_vjF.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVOnqaEAAjpxG.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVdtIasAAh-SV.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVdtKbcAAp0Lf.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVdtUbwAATdt9.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/arata/HHPVdtXbcAEFN-T.jpg"
+  title: 過去デザインの灼
+  tags:
+  - 灼
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/kairi/HHPQ9sHbIAAyiZJ.jpg"
+  title: 過去デザインの浬
+  tags:
+  - 浬
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/kairi/HHPRv9KasAA7lux.jpg"
+  title: 過去デザインの浬
+  tags:
+  - 浬
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/kairi/HHPRv9KbcAA0klx.jpg"
+  title: 過去デザインの浬
+  tags:
+  - 浬
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/kairi/HHPSt2TaUAAWfSa.jpg"
+  title: 過去デザインの浬
+  tags:
+  - 浬
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/kairi/HHPSt2YbQAAN8_t.jpg"
+  title: 過去デザインの浬
+  tags:
+  - 浬
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/kairi/HHPSt2YbsAA9HUd.jpg"
+  title: 過去デザインの浬
+  tags:
+  - 浬
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/kujo/HHPQ9sOaAAApFuA.jpg"
+  title: 過去デザインの九条
+  tags:
+  - 九条
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/kuro-shirabe/HHPTlvlakAAun4Q.jpg"
+  title: 過去デザインの黒調
+  tags:
+  - 黒調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/mairu/HHPRVDAbIAAo1yE.jpg"
+  title: 過去デザインの哩
+  tags:
+  - 哩
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/mairu/HHPRVDKacAAz5cN.jpg"
+  title: 過去デザインの哩
+  tags:
+  - 哩
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHOzy4haMAEJ50c.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHOzy4jaoAArLIp.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHOzy4kaQAAUdur.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHOzy4kagAAZpDX.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPTKXLbgAAzVdX.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPTKXaaQAAtlQU.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPTlvia4AAbB0G.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPW-9nbcAA_uTG.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPW-9raAAAYVbd.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPW_b6bAAAkI2x.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPW_b9aUAAp1Na.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPWrF1bUAAf07_.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPWrFea4AAwPSk.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPWrFhbgAAnt_x.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPWrFibUAAfoBJ.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPXhA0bYAAEaye.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPXhA2awAAKU6E.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirabe/HHPXhA3acAA9RG3.jpg"
+  title: 過去デザインの調
+  tags:
+  - 調
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/shirose/HHPRVDObAAAPIRC.jpg"
+  title: 過去デザインの白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/susugaya/HHPQ9sIacAEAWpP.jpg"
+  title: 過去デザインの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
+
+- src: "/assets/images/gallery/susugaya/HHPQ9sKbIAAP9vE.jpg"
+  title: 過去デザインの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T23:20:00+09:00'
+  thumb_position: '50% 50%'
