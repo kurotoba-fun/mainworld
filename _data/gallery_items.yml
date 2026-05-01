@@ -1,4 +1,16 @@
 ---
+- src: "/assets/images/gallery/kujo/HHM28bcboAAcuAJ.jpg"
+  title: プリクラ用九条
+  tags:
+  - 九条
+  date: '2026-05-01T11:40:00+09:00'
+  thumb_position: '50% 34%'
+- src: "/assets/images/gallery/tachibana/HHM28bca4AArIVn.jpg"
+  title: プリクラ用橘
+  tags:
+  - 橘
+  date: '2026-05-01T11:40:00+09:00'
+  thumb_position: '50% 34%'
 - src: "/assets/images/gallery/amagi/HHMtNVGaUAAyS3f.jpg"
   title: 新郎姿の天城
   tags:
