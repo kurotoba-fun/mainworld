@@ -8,6 +8,34 @@
   thumb_position: '50% 50%'
   description: |-
     「…教えなさいよ、俺ばっかり不公平でしょうが。」
+- src: "/assets/images/gallery/arata/HHH0ZkXbIAApHm6.jpg"
+  title: 副産物の灼
+  tags:
+  - 灼
+  - ボツ
+  date: '2026-04-30T12:11:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/arata/HHH0ZkYbMAA0Ykc.jpg"
+  title: 副産物の灼
+  tags:
+  - 灼
+  - ボツ
+  date: '2026-04-30T12:11:00+09:00'
+  thumb_position: '58% 50%'
+- src: "/assets/images/gallery/arata/HHH0ZkbasAAEaRa.jpg"
+  title: 副産物の灼
+  tags:
+  - 灼
+  - ボツ
+  date: '2026-04-30T12:11:00+09:00'
+  thumb_position: '38% 50%'
+- src: "/assets/images/gallery/arata/HHH0ZkfacAAYVE6.jpg"
+  title: 副産物の灼
+  tags:
+  - 灼
+  - ボツ
+  date: '2026-04-30T12:11:00+09:00'
+  thumb_position: '58% 50%'
 - src: "/assets/images/gallery/arata/HHHzDB-bQAA7Tq5.jpg"
   title: ゲームスクショ元画像灼
   tags:
@@ -35,12 +63,14 @@
 - src: "/assets/images/gallery/shirose/HHHyfH5bkAAuu1x.jpg"
   title: 副産物の白瀬
   tags:
+  - ボツ
   - 白瀬
   date: '2026-04-30T12:03:00+09:00'
   thumb_position: '48% 50%'
 - src: "/assets/images/gallery/shirose/HHHyfIAawAAwVIq.jpg"
   title: 副産物の白瀬
   tags:
+  - ボツ
   - 白瀬
   date: '2026-04-30T12:03:00+09:00'
   thumb_position: '42% 50%'
