@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/shirabe/HHOupcUakAAwk4d.jpg"
+  title: 副産物の調
+  tags:
+  - 調
+  - ボツ
+  date: '2026-05-01T20:23:00+09:00'
+  thumb_position: '35% 42%'
+- src: "/assets/images/gallery/shirabe/HHOupcUaoAACu-0.jpg"
+  title: 副産物の調
+  tags:
+  - 調
+  - ボツ
+  date: '2026-05-01T20:23:00+09:00'
+  thumb_position: '48% 42%'
+- src: "/assets/images/gallery/shirose/HHOupcUbQAAVwnz.jpg"
+  title: 副産物の白瀬
+  tags:
+  - 白瀬
+  - ボツ
+  date: '2026-05-01T20:23:00+09:00'
+  thumb_position: '72% 42%'
+- src: "/assets/images/gallery/tachibana/HHOupcVakAAPdLu.jpg"
+  title: 副産物の橘
+  tags:
+  - 橘
+  - ボツ
+  date: '2026-05-01T20:23:00+09:00'
+  thumb_position: '28% 42%'
 - src: "/assets/images/gallery/amagi/HHOnzFDbcAAyY_w.jpg"
   title: ユーザーに庇われた天城
   tags:
