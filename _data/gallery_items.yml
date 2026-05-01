@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/kairi/HHKjil7bMAAaclk.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-05-01T00:56:00+09:00'
+  thumb_position: '50% 18%'
+- src: "/assets/images/gallery/kairi/HHKjim-acAAGjdz.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-05-01T00:56:00+09:00'
+  thumb_position: '50% 18%'
+- src: "/assets/images/gallery/susugaya/HHKjimBbgAA94Jo.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T00:56:00+09:00'
+  thumb_position: '50% 16%'
+- src: "/assets/images/gallery/susugaya/HHKjimOaMAAA2Zt.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T00:56:00+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/shirabe/HHKauvgbQAADEiu.jpg"
   title: 副産物の調
   tags:
