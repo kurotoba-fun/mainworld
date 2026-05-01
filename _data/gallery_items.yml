@@ -1,4 +1,52 @@
 ---
+- src: "/assets/images/gallery/amagi/HHMtNVGaUAAyS3f.jpg"
+  title: 新郎姿の天城
+  tags:
+  - 天城
+  date: '2026-05-01T10:59:00+09:00'
+  thumb_position: '55% 30%'
+- src: "/assets/images/gallery/arata/HHMtNVHasAA9mxU.jpg"
+  title: 新郎姿の灼
+  tags:
+  - 灼
+  date: '2026-05-01T10:59:00+09:00'
+  thumb_position: '50% 28%'
+- src: "/assets/images/gallery/kairi/HHMtNVHbkAAQWv8.jpg"
+  title: 新郎姿の浬
+  tags:
+  - 浬
+  date: '2026-05-01T10:59:00+09:00'
+  thumb_position: '48% 28%'
+- src: "/assets/images/gallery/kujo/HHMthO3aEAAaZE3.jpg"
+  title: 新郎姿の九条
+  tags:
+  - 九条
+  date: '2026-05-01T10:59:00+09:00'
+  thumb_position: '48% 24%'
+- src: "/assets/images/gallery/shirabe/HHMtNVGbMAAsQ1L.jpg"
+  title: 新郎姿の調
+  tags:
+  - 調
+  date: '2026-05-01T10:59:00+09:00'
+  thumb_position: '50% 28%'
+- src: "/assets/images/gallery/shirose/HHMthO2aAAAsIt1.jpg"
+  title: 新郎姿の白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-01T10:59:00+09:00'
+  thumb_position: '50% 28%'
+- src: "/assets/images/gallery/susugaya/HHMthO5bMAAGs_3.jpg"
+  title: 新郎姿の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T10:59:00+09:00'
+  thumb_position: '50% 26%'
+- src: "/assets/images/gallery/tachibana/HHMthO3aQAAoCP1.jpg"
+  title: 新郎姿の橘
+  tags:
+  - 橘
+  date: '2026-05-01T10:59:00+09:00'
+  thumb_position: '50% 26%'
 - src: "/assets/images/gallery/shirabe/HHMImu0aQAAFykN.jpg"
   title: 再掲の調
   tags:
