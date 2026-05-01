@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/amagi/HHNQYHPbsAAihyj.jpg"
+  title: 副産物の天城
+  tags:
+  - 天城
+  - ボツ
+  date: '2026-05-01T13:31:00+09:00'
+  thumb_position: '50% 30%'
+- src: "/assets/images/gallery/kairi/HHNQYHTaYAAwLgj.jpg"
+  title: 副産物の浬
+  tags:
+  - 浬
+  - ボツ
+  date: '2026-05-01T13:31:00+09:00'
+  thumb_position: '50% 30%'
+- src: "/assets/images/gallery/shirabe/HHNQYHTbAAAqkHq.jpg"
+  title: 副産物の調
+  tags:
+  - 調
+  - ボツ
+  date: '2026-05-01T13:31:00+09:00'
+  thumb_position: '50% 30%'
+- src: "/assets/images/gallery/shirose/HHNQYHUa8AAHtoc.jpg"
+  title: 副産物の白瀬
+  tags:
+  - 白瀬
+  - ボツ
+  date: '2026-05-01T13:31:00+09:00'
+  thumb_position: '50% 30%'
 - src: "/assets/images/gallery/kujo/HHM28bcboAAcuAJ.jpg"
   title: プリクラ用九条
   tags:
