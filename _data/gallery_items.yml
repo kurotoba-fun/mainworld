@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/susugaya/HHKriGFaYAAh2e3.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T01:31:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/susugaya/HHKriGGakAA9Kfw.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T01:31:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/susugaya/HHKriGHawAAlKmD.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T01:31:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/susugaya/HHKriGIbYAE1oXu.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-01T01:31:00+09:00'
+  thumb_position: '50% 50%'
 - src: "/assets/images/gallery/kairi/HHKjil7bMAAaclk.jpg"
   title: 浬
   tags:
