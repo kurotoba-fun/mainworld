@@ -2798,6 +2798,7 @@
   tags:
   - 調
   date: '2026-04-17T00:35:50+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/shirabe/HDqSQAabEAM-Nxo.jpg"
   title: 調
   tags:
@@ -2818,26 +2819,31 @@
   tags:
   - 調
   date: '2026-04-17T00:35:24+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/shirabe/HDu_XC4a8AAAMKp.jpg"
   title: 調
   tags:
   - 調
   date: '2026-04-17T00:35:08+09:00'
+  thumb_position: '52% 14%'
 - src: "/assets/images/gallery/arata/HDvA8SPaAAAbAi0.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-17T00:34:58+09:00'
+  thumb_position: '50% 16%'
+- src: "/assets/images/gallery/shirabe/HDvueaAaYAAeey5.jpg"
+  title: 「内緒っすよ先輩」
+  tags:
+  - セリフ付き
+  - 調
+  date: '2026-03-19T13:07:01+09:00'
 - src: "/assets/images/gallery/arata/HDvueaCa0AAqYAh.jpg"
-  title: 灼
+  title: 「黙ってろよひよっこ」
   tags:
   - 灼
-  date: '2026-04-17T00:34:48+09:00'
-- src: "/assets/images/gallery/shirabe/HDvueaAaYAAeey5.jpg"
-  title: 調
-  tags:
-  - 調
-  date: '2026-04-17T00:34:43+09:00'
+  - セリフ付き
+  date: '2026-03-19T13:07:00+09:00'
 - src: "/assets/images/gallery/arata/HDxuBypbUAAo8p0.jpg"
   title: 灼
   tags:
@@ -2848,6 +2854,7 @@
   tags:
   - 灼
   date: '2026-04-17T00:34:31+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirabe/HD0fPkoboAEJcGR.jpg"
   title: 調
   tags:
@@ -2863,6 +2870,7 @@
   tags:
   - 調
   date: '2026-04-17T00:33:35+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HD1Yb7bbcAAOt6z.jpg"
   title: 灼
   tags:
@@ -2878,11 +2886,13 @@
   tags:
   - 灼
   date: '2026-04-17T00:32:27+09:00'
+  thumb_position: '35% 16%'
 - src: "/assets/images/gallery/shirabe/HD2ZjyHboAEfBie.jpg"
   title: 調
   tags:
   - 調
   date: '2026-04-17T00:32:14+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirabe/HD3u0taaYAAAPdw.jpg"
   title: 調
   tags:
@@ -2893,21 +2903,25 @@
   tags:
   - 灼
   date: '2026-04-17T00:32:01+09:00'
+  thumb_position: '42% 18%'
 - src: "/assets/images/gallery/shirabe/HD3vi-wboAIXdx2.jpg"
   title: 調
   tags:
   - 調
   date: '2026-04-17T00:31:55+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/arata/HD3vi-qboAIDT3R.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-17T00:31:48+09:00'
+  thumb_position: '42% 16%'
 - src: "/assets/images/gallery/shirabe/HD5cwrtXYAAstnO.jpg"
   title: 調
   tags:
   - 調
   date: '2026-04-17T00:31:43+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirabe/HD6FcXcboAETzL1.jpg"
   title: 調
   tags:
