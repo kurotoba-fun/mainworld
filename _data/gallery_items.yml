@@ -3845,6 +3845,7 @@
   - 灼
   - 記念
   date: '2026-04-12T10:13:59+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/arata/HFqwuY0aMAIZtKZ.jpg"
   title: 灼
   tags:
@@ -4109,27 +4110,32 @@
   tags:
   - 調
   date: '2026-04-16T20:41:12+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/amagi/HFzIi1kaUAEEwhU.jpg"
   title: 天城
   tags:
   - 天城
   date: '2026-04-16T20:40:41+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/amagi/HFzIi1kbQAAA4Rf.jpg"
   title: 天城
   tags:
   - 天城
   date: '2026-04-16T20:40:28+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/shirabe/HFzIi1makAAdhJI.jpg"
   title: 調
   tags:
   - 調
   date: '2026-04-16T20:40:16+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirabe/HGAdUz7boAEVoPt.jpeg"
   title: べべ250万トークおめでとう記念
   tags:
   - 調
   - 記念
   date: '2026-04-16T15:37:18+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/kujo/kujo.JPG"
   title: 九条
   tags:
