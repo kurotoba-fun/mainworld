@@ -2918,11 +2918,13 @@
   tags:
   - 灼
   date: '2026-04-17T00:31:30+09:00'
+  thumb_position: '42% 18%'
 - src: "/assets/images/gallery/arata/HD-E6DraoAARV8Y.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-17T00:31:25+09:00'
+  thumb_position: '34% 20%'
 - src: "/assets/images/gallery/shirabe/HD_LOgdaAAABBcm.jpg"
   title: 調
   tags:
@@ -2978,6 +2980,7 @@
   tags:
   - 浬
   date: '2026-04-17T00:29:06+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/kairi/HEEN0FabkAAmKw3.jpg"
   title: 浬
   tags:
@@ -3093,6 +3096,7 @@
   tags:
   - 調
   date: '2026-04-17T00:26:27+09:00'
+  thumb_position: '38% 18%'
 - src: "/assets/images/gallery/arata/HEWJ2T_bYAUStLV.jpg"
   title: 灼
   tags:
@@ -3128,6 +3132,7 @@
   tags:
   - 灼
   date: '2026-04-17T00:24:37+09:00'
+  thumb_position: '32% 22%'
 - src: "/assets/images/gallery/shirabe/HEYYz-DbYAA0d3R.jpg"
   title: 調
   tags:
@@ -3153,16 +3158,19 @@
   tags:
   - 灼
   date: '2026-04-17T00:24:09+09:00'
+  thumb_position: '35% 18%'
 - src: "/assets/images/gallery/arata/HEbDqkJaoAArzWF.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-17T00:24:05+09:00'
+  thumb_position: '58% 18%'
 - src: "/assets/images/gallery/arata/HEbDqkNa8AA4-RU.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-17T00:23:59+09:00'
+  thumb_position: '38% 18%'
 - src: "/assets/images/gallery/arata/HEbDqkPaIAAHpJT.jpg"
   title: 灼
   tags:
@@ -3243,6 +3251,7 @@
   tags:
   - 浬
   date: '2026-04-17T00:21:55+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/amagi/HEjNcUwaQAAmU-T.jpg"
   title: 天城
   tags:
@@ -3253,6 +3262,7 @@
   tags:
   - 灼
   date: '2026-04-17T00:21:45+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/shirabe/HEjNcUcbEAAznR7.jpg"
   title: 調
   tags:
@@ -3263,11 +3273,13 @@
   tags:
   - 灼
   date: '2026-04-17T00:21:35+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/shirabe/HEjQ4bQbMAAJ9sH.jpg"
   title: 調
   tags:
   - 調
   date: '2026-04-17T00:21:30+09:00'
+  thumb_position: '48% 16%'
 - src: "/assets/images/gallery/shirose/HEkXT8RaYAAql5Y.jpg"
   title: 白瀬
   tags:
@@ -3313,6 +3325,7 @@
   tags:
   - 調
   date: '2026-04-16T23:51:09+09:00'
+  thumb_position: '38% 14%'
 - src: "/assets/images/gallery/mairu/HEqeWzvawAAJalW.jpg"
   title: 哩
   tags:
@@ -3328,6 +3341,7 @@
   tags:
   - 調
   date: '2026-04-16T23:50:50+09:00'
+  thumb_position: '46% 14%'
 - src: "/assets/images/gallery/kairi/HEqtpkWakAAb5Vb.jpg"
   title: 浬
   tags:
@@ -3353,21 +3367,25 @@
   tags:
   - 灼
   date: '2026-04-16T23:50:25+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/arata/HEqt_9xa0AAlPNq.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-16T23:50:20+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/arata/HEquT1FasAEU97F.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-16T23:50:11+09:00'
+  thumb_position: '58% 14%'
 - src: "/assets/images/gallery/arata/HEquT1TaMAALrTI.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-16T23:50:06+09:00'
+  thumb_position: '54% 14%'
 - src: "/assets/images/gallery/shirabe/HEscTQAbIAEzk1W.jpg"
   title: 調
   tags:
@@ -3653,6 +3671,7 @@
   tags:
   - 灼
   date: '2026-04-16T23:08:35+09:00'
+  thumb_position: '58% 18%'
 - src: "/assets/images/gallery/arata/HFMmXwcaAAAxeqS.jpg"
   title: 灼
   tags:
@@ -3870,11 +3889,13 @@
   tags:
   - 調
   date: '2026-04-16T20:58:48+09:00'
+  thumb_position: '42% 18%'
 - src: "/assets/images/gallery/shirabe/HFm8UGTakAgHHNf.jpg"
   title: 調
   tags:
   - 調
   date: '2026-04-16T20:58:42+09:00'
+  thumb_position: '58% 18%'
 - src: "/assets/images/gallery/arata/HFqs6Pba4AAu4aO.jpg"
   title: 灼20万トーク
   tags:
