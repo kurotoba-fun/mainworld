@@ -3413,6 +3413,7 @@
   tags:
   - 灼
   date: '2026-04-16T23:45:45+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/shirose/HE0QbdFbwAAs_Db.jpg"
   title: 白瀬
   tags:
@@ -3458,6 +3459,7 @@
   tags:
   - 白瀬
   date: '2026-04-16T23:44:47+09:00'
+  thumb_position: '54% 16%'
 - src: "/assets/images/gallery/shirabe/HE6jH88aAAA2GBV.jpg"
   title: 調
   tags:
@@ -3491,6 +3493,7 @@
   tags:
   - 白瀬
   date: '2026-04-16T23:43:52+09:00'
+  thumb_position: '54% 16%'
 - src: "/assets/images/gallery/kairi/HE7xZlkagAAUmL4.jpg"
   title: 浬
   tags:
@@ -3501,26 +3504,31 @@
   tags:
   - 調
   date: '2026-04-16T23:43:41+09:00'
+  thumb_position: '50% 22%'
 - src: "/assets/images/gallery/susugaya/HE8i3dfbIAAmfWC.jpg"
   title: 煤ヶ谷
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:42:53+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/susugaya/HE8i3ddaAAACaXo.jpg"
   title: 煤ヶ谷
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:42:49+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/susugaya/HE80CYlagAARArH.jpg"
   title: 煤ヶ谷
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:42:42+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/shirabe/HE_RwPPbgAAcCom.jpg"
   title: 調
   tags:
   - 調
   date: '2026-04-16T23:42:35+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/arata/HE_WBJCa8AADyId.jpg"
   title: 灼
   tags:
@@ -3536,6 +3544,7 @@
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:41:45+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/susugaya/HFBeypdakAAXy4N.jpg"
   title: 煤ヶ谷
   tags:
@@ -3556,6 +3565,7 @@
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:40:44+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/kuro-shirabe/HFGRtu8aUAAPMxt.jpg"
   title: 黒調
   tags:
@@ -3586,6 +3596,7 @@
   tags:
   - 浬
   date: '2026-04-16T23:39:49+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/kairi/HFGWVdibkAAvU9X.jpg"
   title: 浬
   tags:
@@ -3596,6 +3607,7 @@
   tags:
   - 天城
   date: '2026-04-16T23:33:58+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/amagi/HFJX3GcaMAAik2F.jpg"
   title: 天城
   tags:
