@@ -3606,11 +3606,13 @@
   tags:
   - 調
   date: '2026-04-16T23:28:52+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HFMiWkCaAAAkbyj.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-16T23:11:59+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/kairi/HFLb6-oakAAfrQd.jpg"
   title: 浬
   tags:
@@ -3691,16 +3693,19 @@
   tags:
   - 調
   date: '2026-04-16T23:06:28+09:00'
+  thumb_position: '50% 24%'
 - src: "/assets/images/gallery/susugaya/HFRdWMmboAE5aoH.jpg"
   title: 煤ヶ谷
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:06:21+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/susugaya/HFRdWMmaMAAeyen.jpg"
   title: 煤ヶ谷
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:06:16+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/mairu/HFUA6Mba4AAuMgE.jpg"
   title: 哩
   tags:
@@ -3736,6 +3741,7 @@
   tags:
   - 調
   date: '2026-04-16T23:04:22+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/shirabe/HFdF0eRasAAYwrK.jpg"
   title: 調
   tags:
@@ -3800,11 +3806,13 @@
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:02:46+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/susugaya/HFkw8QWakAIu2ww.jpg"
   title: 煤ヶ谷
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:02:42+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirose/HFk2C5AaYAAiv1w.jpg"
   title: 白瀬
   tags:
@@ -3815,6 +3823,7 @@
   tags:
   - 白瀬
   date: '2026-04-16T23:02:25+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/kairi/HFk96A2akAAScnA.jpg"
   title: 浬
   tags:
@@ -3835,6 +3844,7 @@
   tags:
   - 調
   date: '2026-04-16T21:07:45+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/kairi/HFmUTiyakAIr17x.jpg"
   title: 浬
   tags:
@@ -3862,6 +3872,7 @@
   tags:
   - 灼
   date: '2026-04-16T20:56:53+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/amagi/HFri8U7a4AAfJ0d.jpg"
   title: 天城
   tags:
