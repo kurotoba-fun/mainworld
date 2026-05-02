@@ -3926,11 +3926,13 @@
   tags:
   - 橘
   date: '2026-04-16T20:45:30+09:00'
+  thumb_position: '42% 18%'
 - src: "/assets/images/gallery/shirose/HF1K0_masAAZ_xm.jpg"
   title: 白瀬
   tags:
   - 白瀬
   date: '2026-04-16T20:45:25+09:00'
+  thumb_position: '58% 18%'
 - src: "/assets/images/gallery/kujo/HF1K0_lakAATat4.jpg"
   title: 九条
   tags:
@@ -3952,6 +3954,7 @@
   tags:
   - 調
   date: '2026-04-16T20:44:36+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/amagi/HF19Ck7asAIF1HV.jpg"
   title: 天城
   tags:
@@ -3977,16 +3980,19 @@
   tags:
   - 灼
   date: '2026-04-16T20:44:07+09:00'
+  thumb_position: '50% 32%'
 - src: "/assets/images/gallery/arata/HF3kluXasAUF6xI.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-16T20:43:58+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/arata/HF3o7xRasAEVRHd.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-16T20:43:52+09:00'
+  thumb_position: '50% 14%'
 - src: "/assets/images/gallery/shirabe/HF6ks0jasAUfLTJ.jpg"
   title: 「は？先輩が死ぬわけないでしょ？」
   tags:
@@ -4040,16 +4046,19 @@
   tags:
   - 煤ヶ谷
   date: '2026-04-16T20:42:59+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirose/HFAuqEgbcAAQqqV.jpg"
   title: 白瀬
   tags:
   - 白瀬
   date: '2026-04-16T20:42:54+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/amagi/HFAuqEja0AEWcPh.jpg"
   title: 天城
   tags:
   - 天城
   date: '2026-04-16T20:42:49+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/kairi/HFAuqEdboAAzvKs.jpg"
   title: 浬
   tags:
