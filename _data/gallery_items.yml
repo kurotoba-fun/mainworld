@@ -1,5 +1,16 @@
 ---
-
+- src: "/assets/images/gallery/shirabe/HHWP83ubMAARbk8.jpg"
+  title: むすっとした調
+  tags:
+  - 調
+  date: '2026-05-03T07:26:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/shirabe/HHWP83tbgAAXuGF.jpg"
+  title: むすっとした調
+  tags:
+  - 調
+  date: '2026-05-03T07:26:00+09:00'
+  thumb_position: '50% 50%'
 - src: "/assets/images/gallery/amagi/HHPRVC7bMAA2wpR.jpg"
   title: 過去デザインの天城
   tags:
