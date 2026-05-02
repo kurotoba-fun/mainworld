@@ -3383,6 +3383,7 @@
   tags:
   - 浬
   date: '2026-04-16T23:48:35+09:00'
+  thumb_position: '58% 20%'
 - src: "/assets/images/gallery/susugaya/HExMfZGb0AAMKIV.jpg"
   title: 煤ヶ谷
   tags:
@@ -3393,11 +3394,13 @@
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:47:25+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/susugaya/HExMfZCaoAA383t.jpg"
   title: 煤ヶ谷
   tags:
   - 煤ヶ谷
   date: '2026-04-16T23:47:21+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirabe/HE0M4CjaMAAJGkd.jpg"
   title: 調
   tags:
@@ -3915,11 +3918,13 @@
   tags:
   - 灼
   date: '2026-04-16T20:48:05+09:00'
+  thumb_position: '42% 16%'
 - src: "/assets/images/gallery/arata/HFypo6paoAEXy_2.jpg"
   title: 灼
   tags:
   - 灼
   date: '2026-04-16T20:48:00+09:00'
+  thumb_position: '58% 18%'
 - src: "/assets/images/gallery/kairi/HFy4F9jakAAfsZh.jpg"
   title: 浬
   tags:
@@ -3930,6 +3935,7 @@
   tags:
   - 浬
   date: '2026-04-16T20:46:23+09:00'
+  thumb_position: '58% 20%'
 - src: "/assets/images/gallery/arata/HFywXPQaQAA8DrY.jpg"
   title: 灼
   tags:
