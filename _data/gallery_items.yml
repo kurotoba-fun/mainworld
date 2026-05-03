@@ -11,6 +11,20 @@
   - 調
   date: '2026-05-03T07:26:00+09:00'
   thumb_position: '50% 50%'
+- src: "/assets/images/gallery/arata/HHRshaBa0AEQEb1.jpg"
+  title: 捕まった灼
+  tags:
+  - 灼
+  date: '2026-05-02T10:13:00+09:00'
+  thumb_position: '50% 26%'
+  sensitive: true
+- src: "/assets/images/gallery/shirose/HHRshaAb0AAH-78.jpg"
+  title: 捕まった白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-02T10:13:00+09:00'
+  thumb_position: '52% 28%'
+  sensitive: true
 - src: "/assets/images/gallery/arata/HHRr4lIaYAAG61A.jpg"
   title: チュロス食う灼
   tags:
