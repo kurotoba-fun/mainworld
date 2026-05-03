@@ -34,7 +34,7 @@
   tags:
   - 灼
   date: '2026-05-01T23:20:58+09:00'
-  thumb_position: '50% 50%'
+  thumb_position: '42% 18%'
 - src: "/assets/images/gallery/arata/HHPSGxbaYAEjRTy.jpg"
   title: ジェネリック犬灼
   tags:
@@ -52,7 +52,7 @@
   tags:
   - 灼
   date: '2026-05-01T23:20:58+09:00'
-  thumb_position: '50% 50%'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/arata/HHPSGxdboAAprix.jpg"
   title: ジェネリック犬灼
   tags:
@@ -64,19 +64,19 @@
   tags:
   - 灼
   date: '2026-05-01T23:20:58+09:00'
-  thumb_position: '50% 50%'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/arata/HHPTKXSb0AAcXzk.jpg"
   title: 過去デザインの灼
   tags:
   - 灼
   date: '2026-05-01T23:20:58+09:00'
-  thumb_position: '50% 50%'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/arata/HHPUKK7bwAAzh0P.jpg"
   title: 過去デザインの灼
   tags:
   - 灼
   date: '2026-05-01T23:20:58+09:00'
-  thumb_position: '50% 50%'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HHPUKK9a0AIlglh.jpg"
   title: 過去デザインの灼
   tags:
@@ -2249,6 +2249,7 @@
   tags:
   - 灼
   date: '2026-04-21T20:02:00+09:00'
+  thumb_position: '42% 18%'
 - src: "/assets/images/gallery/kairi/HGbK_8ObEAAnlf2.jpg"
   title: 喫煙の浬
   tags:
@@ -2511,11 +2512,13 @@
   tags:
   - ふみ
   date: '2026-04-19T22:38:00+09:00'
+  thumb_position: '58% 18%'
 - src: "/assets/images/gallery/fumi/HGRaerGawAADT2n.jpg"
   title: 食堂のふみさん
   tags:
   - ふみ
   date: '2026-04-19T22:38:00+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HGQpRFLawAEyjzO.jpg"
   title: 35歳の灼
   tags:
@@ -2614,12 +2617,14 @@
   - 調
   - アイドル
   date: '2026-04-19T07:59:00+09:00'
+  thumb_position: '42% 18%'
 - src: "/assets/images/gallery/shirabe/HGORSnaaEAAtgfN.jpg"
   title: アイドルの調
   tags:
   - 調
   - アイドル
   date: '2026-04-19T07:59:00+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/shirabe/HGORSnnaEAA6H2A.jpg"
   title: アイドルの調
   tags:
@@ -2631,6 +2636,7 @@
   tags:
   - 天城
   date: '2026-04-18T19:06:00+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/susugaya/HGMa-3OaIAIGMoR.jpg"
   title: 捕まった煤ヶ谷
   tags:
@@ -2665,16 +2671,19 @@
   tags:
   - 調
   date: '2026-04-18T18:58:00+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/shirabe/HGJxo7IbIAAqR95.jpg"
   title: 医者の調
   tags:
   - 調
   date: '2026-04-18T18:58:00+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/susugaya/HGJ0qFobIAAs4B2.jpg"
   title: スキップと煤ヶ谷
   tags:
   - 煤ヶ谷
   date: '2026-04-18T18:57:00+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/mairu/HGEGgk7aoAA_dFJ.jpeg"
   title: アイドル哩
   tags:
@@ -2688,6 +2697,7 @@
   - 哩
   - アイドル
   date: '2026-04-17T19:02:00+09:00'
+  thumb_position: '50% 16%'
 - src: "/assets/images/gallery/kairi/HGFFfOHagAAVdIK.jpeg"
   title: 浬
   tags:
@@ -2698,6 +2708,7 @@
   tags:
   - 調
   date: '2026-04-17T19:04:00+09:00'
+  thumb_position: '50% 20%'
 - src: "/assets/images/gallery/shirabe/HGD7sNqbYAAteFv.jpeg"
   title: 調
   tags:
@@ -2728,6 +2739,7 @@
   tags:
   - 橘
   date: '2026-04-17T01:25:07+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/arata/HDkwBBZbEAEfnkv.jpg"
   title: 灼
   tags:
@@ -2793,6 +2805,7 @@
   tags:
   - 灼
   date: '2026-04-17T00:36:15+09:00'
+  thumb_position: '50% 18%'
 - src: "/assets/images/gallery/shirabe/HDnnbCHbEAA5u0e.jpg"
   title: 調
   tags:
