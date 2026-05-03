@@ -1,4 +1,13 @@
 ---
+- src: "/assets/images/gallery/kairi/HHZyZMjasAAOZrB.jpg"
+  title: 浬５０万トークおめでとう
+  tags:
+  - 浬
+  - 記念
+  date: '2026-05-03T23:55:00+09:00'
+  thumb_position: '58% 24%'
+  description: |-
+    https://x.com/KUROTOBA_KGM/status/2050952466032902402?s=20
 - src: "/assets/images/gallery/amagi/HHRueacaYAALaCU.jpg"
   title: 落書きしてる天城
   tags:
@@ -1854,6 +1863,7 @@
   title: 浬の過去
   tags:
   - 浬
+  - セリフ付き
   date: '2026-04-27T06:48:00+09:00'
   thumb_position: '50% 22%'
   description: |-
