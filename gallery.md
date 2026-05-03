@@ -54,7 +54,7 @@ permalink: /gallery/
     {% endif %}
     {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
     {% assign thumb_position = item.thumb_position | default: "50% 50%" %}
-    <figure class="gallery-card" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}" data-gallery-sensitive="{% if item.sensitive %}true{% else %}false{% endif %}">
+    <figure class="gallery-card{% if item.sensitive %} sensitive{% endif %}" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}" data-gallery-sensitive="{% if item.sensitive %}true{% else %}false{% endif %}">
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-description="{{ item.description | default: '' | escape }}" data-gallery-index="{{ forloop.index0 }}">
         <picture>
           {% if webp_match and webp_match.size > 0 %}
@@ -72,7 +72,12 @@ permalink: /gallery/
       {% if item.title or item.tags %}
         <figcaption class="gallery-caption">
           {% if item.title %}
-            <p class="gallery-title">{{ item.title }}</p>
+            <p class="gallery-title">
+              {% if item.sensitive %}
+                <img class="gallery-sensitive-icon" src="{{ '/assets/images/site/icon/sensitive/sentitiveicon.svg' | relative_url }}" alt="センシティブ">
+              {% endif %}
+              {{ item.title }}
+            </p>
           {% endif %}
           {% if item.tags %}
             <div class="gallery-tags">
