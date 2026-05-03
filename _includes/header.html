@@ -46,10 +46,17 @@
       var nav = header.querySelector('#site-nav-menu');
       if (!button || !nav) return;
 
+      var updateHeaderState = function () {
+        header.classList.toggle('is-scrolled', window.scrollY > 8);
+      };
+
       var closeMenu = function () {
         button.setAttribute('aria-expanded', 'false');
         nav.classList.remove('is-open');
       };
+
+      updateHeaderState();
+      window.addEventListener('scroll', updateHeaderState, { passive: true });
 
       button.addEventListener('click', function () {
         var isOpen = button.getAttribute('aria-expanded') === 'true';

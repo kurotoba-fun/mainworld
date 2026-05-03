@@ -6,7 +6,7 @@ permalink: /gallery/
 
 <p class="lead">画像をクリックするとモーダルで拡大表示されます。</p>
 
-<div class="gallery-toolbar">
+<div class="gallery-toolbar" data-gallery-toolbar>
   <span class="gallery-toolbar-label">表示</span>
   <div class="gallery-toggle" role="group" aria-label="ギャラリー表示切り替え">
     <button class="gallery-toggle-button" type="button" data-gallery-view="cards" aria-pressed="true">カード</button>
@@ -138,6 +138,7 @@ permalink: /gallery/
     var triggers = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-link'));
     var filterButtons = Array.prototype.slice.call(document.querySelectorAll('.gallery-filter-button'));
     var sensitiveToggleButton = document.querySelector('[data-gallery-sensitive-toggle]');
+    var galleryToolbar = document.querySelector('[data-gallery-toolbar]');
     var emptyState = document.querySelector('.gallery-empty');
     var currentIndex = -1;
     var currentFilter = 'all';
@@ -369,6 +370,16 @@ permalink: /gallery/
         setSensitiveVisibility(!hideSensitive);
       });
     }
+
+    var updateToolbarState = function () {
+      if (!galleryToolbar) return;
+      var headerHeight = siteHeader ? siteHeader.offsetHeight : 0;
+      var stickyTop = headerHeight + 8;
+      galleryToolbar.classList.toggle('is-stuck', galleryToolbar.getBoundingClientRect().top <= stickyTop + 1);
+    };
+    updateToolbarState();
+    window.addEventListener('scroll', updateToolbarState, { passive: true });
+    window.addEventListener('resize', updateToolbarState);
 
     var lazyTargets = Array.prototype.slice.call(document.querySelectorAll('.gallery-grid img[data-src]'));
     if ('IntersectionObserver' in window) {
