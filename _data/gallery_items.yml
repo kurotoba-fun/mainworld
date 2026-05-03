@@ -1,11 +1,11 @@
 ---
-- src: "kurotobari-site/assets/images/gallery/amagi/HHRueacaYAALaCU.jpg"
+- src: "/assets/images/gallery/amagi/HHRueacaYAALaCU.jpg"
   title: 落書きしてる天城
   tags:
   - 天城
   date: '2026-05-03T10:21:00+09:00'
   thumb_position: '50% 20%'
-- src: "kurotobari-site/assets/images/gallery/amagi/HHRueaebIAExu5m.jpg"
+- src: "/assets/images/gallery/amagi/HHRueaebIAExu5m.jpg"
   title: 猫耳天城
   tags:
   - 天城
