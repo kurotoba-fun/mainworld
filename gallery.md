@@ -12,6 +12,7 @@ permalink: /gallery/
     <button class="gallery-toggle-button" type="button" data-gallery-view="cards" aria-pressed="true">カード</button>
     <button class="gallery-toggle-button" type="button" data-gallery-view="photos" aria-pressed="false">写真</button>
   </div>
+  <button class="gallery-sensitive-toggle" type="button" data-gallery-sensitive-toggle aria-pressed="true">センシティブ非表示</button>
 </div>
 
 {% assign gallery_items = site.data.gallery_items | sort: "date" | reverse %}
@@ -53,7 +54,7 @@ permalink: /gallery/
     {% endif %}
     {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
     {% assign thumb_position = item.thumb_position | default: "50% 50%" %}
-    <figure class="gallery-card" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}">
+    <figure class="gallery-card" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}" data-gallery-sensitive="{% if item.sensitive %}true{% else %}false{% endif %}">
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-description="{{ item.description | default: '' | escape }}" data-gallery-index="{{ forloop.index0 }}">
         <picture>
           {% if webp_match and webp_match.size > 0 %}
@@ -115,12 +116,27 @@ permalink: /gallery/
     var modalAltButton = modal ? modal.querySelector('[data-gallery-alt-toggle]') : null;
     if (!gallery || !modal || !modalImage || !modalDialog || !modalMedia || !modalDescription || !modalAltButton) return;
 
+    var siteHeader = document.querySelector('.site-header');
+    var updateHeaderHeight = function () {
+      if (!siteHeader) return;
+      document.documentElement.style.setProperty('--site-header-height', siteHeader.offsetHeight + 'px');
+    };
+    updateHeaderHeight();
+    window.addEventListener('load', updateHeaderHeight);
+    window.addEventListener('resize', updateHeaderHeight);
+    if (siteHeader && 'ResizeObserver' in window) {
+      var headerObserver = new ResizeObserver(updateHeaderHeight);
+      headerObserver.observe(siteHeader);
+    }
+
     var cards = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-card'));
     var triggers = Array.prototype.slice.call(gallery.querySelectorAll('.gallery-link'));
     var filterButtons = Array.prototype.slice.call(document.querySelectorAll('.gallery-filter-button'));
+    var sensitiveToggleButton = document.querySelector('[data-gallery-sensitive-toggle]');
     var emptyState = document.querySelector('.gallery-empty');
     var currentIndex = -1;
     var currentFilter = 'all';
+    var hideSensitive = true;
     var touchStartX = null;
     var swipeThreshold = 40;
 
@@ -260,13 +276,18 @@ permalink: /gallery/
         var tagString = card.getAttribute('data-gallery-tags') || '';
         var tags = tagString ? tagString.split('|') : [];
         var matches = filter === 'all' || tags.indexOf(filter) !== -1;
-        card.hidden = !matches;
-        if (matches) visibleCount += 1;
+        var isSensitive = card.getAttribute('data-gallery-sensitive') === 'true';
+        var visible = matches && (!hideSensitive || !isSensitive);
+        card.hidden = !visible;
+        if (visible) visibleCount += 1;
       });
       filterButtons.forEach(function (button) {
         var isActive = button.getAttribute('data-gallery-filter') === filter;
         button.setAttribute('aria-pressed', String(isActive));
       });
+      if (sensitiveToggleButton) {
+        sensitiveToggleButton.setAttribute('aria-pressed', String(hideSensitive));
+      }
       if (emptyState) {
         emptyState.hidden = visibleCount > 0;
       }
@@ -275,6 +296,17 @@ permalink: /gallery/
       }
       try {
         window.localStorage.setItem('galleryFilter', filter);
+      } catch (e) {}
+    };
+
+    var setSensitiveVisibility = function (shouldHideSensitive) {
+      hideSensitive = shouldHideSensitive;
+      if (sensitiveToggleButton) {
+        sensitiveToggleButton.setAttribute('aria-pressed', String(hideSensitive));
+      }
+      applyFilter(currentFilter);
+      try {
+        window.localStorage.setItem('galleryHideSensitive', String(hideSensitive));
       } catch (e) {}
     };
 
@@ -306,6 +338,13 @@ permalink: /gallery/
     if (!filterButtons.some(function (button) { return button.getAttribute('data-gallery-filter') === preferredFilter; })) {
       preferredFilter = 'all';
     }
+
+    try {
+      var storedHideSensitive = window.localStorage.getItem('galleryHideSensitive');
+      if (storedHideSensitive !== null) {
+        hideSensitive = storedHideSensitive !== 'false';
+      }
+    } catch (e) {}
     applyFilter(preferredFilter);
 
     toggleButtons.forEach(function (button) {
@@ -319,6 +358,12 @@ permalink: /gallery/
         applyFilter(button.getAttribute('data-gallery-filter'));
       });
     });
+
+    if (sensitiveToggleButton) {
+      sensitiveToggleButton.addEventListener('click', function () {
+        setSensitiveVisibility(!hideSensitive);
+      });
+    }
 
     var lazyTargets = Array.prototype.slice.call(document.querySelectorAll('.gallery-grid img[data-src]'));
     if ('IntersectionObserver' in window) {
