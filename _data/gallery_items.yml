@@ -23,6 +23,14 @@
   - 調
   date: '2026-05-03T07:26:00+09:00'
   thumb_position: '50% 50%'
+- src: "/assets/images/gallery/susugaya/HHR8UC6aYAAN7dh.jpg"
+  title: リクエストの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-02T11:22:00+09:00'
+  thumb_position: '50% 22%'
+  description: |-
+    以下にて過去設定の公開
 - src: "/assets/images/gallery/shirose/HHRv04wboAADmIE.jpg"
   title: 血に傷がついた
   tags:
