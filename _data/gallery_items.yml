@@ -1,4 +1,25 @@
 ---
+- src: "/assets/images/gallery/tachibana/HHbfGheaUAALMyR.jpg"
+  title: 橘副産物
+  tags:
+  - 橘
+  - 副産物
+  date: '2026-05-04T07:50:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/tachibana/HHbfGhgbEAAuZYc.jpg"
+  title: 橘副産物
+  tags:
+  - 橘
+  - 副産物
+  date: '2026-05-04T07:50:00+09:00'
+  thumb_position: '50% 28%'
+- src: "/assets/images/gallery/tachibana/HHbfGhhacAA1ToZ.jpg"
+  title: 橘副産物
+  tags:
+  - 橘
+  - 副産物
+  date: '2026-05-04T07:50:00+09:00'
+  thumb_position: '50% 28%'
 - src: "/assets/images/gallery/kairi/HHZyZMjasAAOZrB.jpg"
   title: 浬５０万トークおめでとう
   tags:
