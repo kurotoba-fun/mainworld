@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/kairi/HHexK-Ka0AAQoP8.jpg"
+  title: リクエストの浬
+  tags:
+  - 浬
+  date: '2026-05-04T23:08:00+09:00'
+  thumb_position: '50% 28%'
+  sensitive: true
 - src: "/assets/images/gallery/susugaya/HHel8OZbgAAYwhY.jpg"
   title: 煤ヶ谷副産物
   tags:
