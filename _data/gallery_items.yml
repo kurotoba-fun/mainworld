@@ -1,4 +1,52 @@
 ---
+- src: "/assets/images/gallery/shirabe/HHgS0TYagAAudsE.jpg"
+  title: アイドルの調
+  tags:
+  - 調
+  date: '2026-05-05T06:15:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/amagi/HHgS0TabIAA-AkZ.jpg"
+  title: アイドルの天城
+  tags:
+  - 天城
+  date: '2026-05-05T06:15:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/kairi/HHgS0TcbwAAaZvV.jpg"
+  title: アイドルの浬
+  tags:
+  - 浬
+  date: '2026-05-05T06:15:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/arata/HHgS0ThagAA7TKx.jpg"
+  title: アイドルの灼
+  tags:
+  - 灼
+  date: '2026-05-05T06:15:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/kujo/HHgTBM7awAEs_7m.jpg"
+  title: アイドルの九条
+  tags:
+  - 九条
+  date: '2026-05-05T06:15:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/shirose/HHgTBM7awAA4AMu.jpg"
+  title: アイドルの白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-05T06:15:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/tachibana/HHgTBM7bwAE-fPk.jpg"
+  title: アイドルの橘
+  tags:
+  - 橘
+  date: '2026-05-05T06:15:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/susugaya/HHgTBOwbEAArw4n.jpg"
+  title: アイドルの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-05T06:15:00+09:00'
+  thumb_position: '50% 24%'
 - src: "/assets/images/gallery/kairi/HHexK-Ka0AAQoP8.jpg"
   title: リクエストの浬
   tags:
