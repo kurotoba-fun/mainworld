@@ -55,7 +55,7 @@ permalink: /gallery/
     {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
     {% assign thumb_position = item.thumb_position | default: "50% 50%" %}
     <figure class="gallery-card{% if item.sensitive %} sensitive{% endif %}" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}" data-gallery-sensitive="{% if item.sensitive %}true{% else %}false{% endif %}">
-      <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-description="{{ item.description | default: '' | escape }}" data-gallery-index="{{ forloop.index0 }}">
+      <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-description="{{ item.description | default: '' | escape }}" data-gallery-x-url="{{ item.x_url | default: '' | escape }}" data-gallery-index="{{ forloop.index0 }}">
         <picture>
           {% if webp_match and webp_match.size > 0 %}
             <source data-srcset="{{ thumb_src | relative_url }}" type="image/webp">
@@ -102,7 +102,10 @@ permalink: /gallery/
     <button class="gallery-modal-close" type="button" aria-label="閉じる" data-gallery-close>×</button>
     <div class="gallery-modal-media" data-gallery-description-toggle>
       <img class="gallery-modal-image" src="" alt="" id="gallery-modal-image">
-      <button class="gallery-modal-alt-button" type="button" aria-label="説明文を表示" aria-pressed="false" data-gallery-alt-toggle hidden>ALT</button>
+      <div class="gallery-modal-actions">
+        <button class="gallery-modal-alt-button" type="button" aria-label="説明文を表示" aria-pressed="false" data-gallery-alt-toggle hidden>ALT</button>
+        <a class="gallery-modal-x-link" href="" target="_blank" rel="noopener noreferrer" aria-label="Xの投稿を開く" data-gallery-x-link hidden>X</a>
+      </div>
       <div class="gallery-modal-description" id="gallery-modal-description" aria-hidden="true"></div>
     </div>
     <p class="gallery-modal-title" id="gallery-modal-title"></p>
@@ -119,7 +122,8 @@ permalink: /gallery/
     var modalTitle = document.getElementById('gallery-modal-title');
     var modalDescription = document.getElementById('gallery-modal-description');
     var modalAltButton = modal ? modal.querySelector('[data-gallery-alt-toggle]') : null;
-    if (!gallery || !modal || !modalImage || !modalDialog || !modalMedia || !modalDescription || !modalAltButton) return;
+    var modalXLink = modal ? modal.querySelector('[data-gallery-x-link]') : null;
+    if (!gallery || !modal || !modalImage || !modalDialog || !modalMedia || !modalDescription || !modalAltButton || !modalXLink) return;
 
     var siteHeader = document.querySelector('.site-header');
     var updateHeaderHeight = function () {
@@ -161,6 +165,7 @@ permalink: /gallery/
       var src = trigger.getAttribute('data-gallery-src');
       var title = trigger.getAttribute('data-gallery-title');
       var description = trigger.getAttribute('data-gallery-description') || '';
+      var xUrl = trigger.getAttribute('data-gallery-x-url') || '';
       modalImage.src = src;
       modalImage.alt = title || 'gallery image';
       modalTitle.textContent = title || '';
@@ -172,6 +177,8 @@ permalink: /gallery/
       modalAltButton.hidden = !hasDescription;
       modalAltButton.setAttribute('aria-pressed', 'false');
       modalAltButton.setAttribute('aria-label', '説明文を表示');
+      modalXLink.hidden = !xUrl;
+      modalXLink.href = xUrl || '';
     };
 
     var openModal = function (index) {
@@ -190,6 +197,8 @@ permalink: /gallery/
       modalAltButton.hidden = true;
       modalAltButton.setAttribute('aria-pressed', 'false');
       modalAltButton.setAttribute('aria-label', '説明文を表示');
+      modalXLink.hidden = true;
+      modalXLink.href = '';
       document.body.classList.remove('is-gallery-modal-open');
     };
 
