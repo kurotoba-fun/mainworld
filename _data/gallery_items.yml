@@ -1,4 +1,29 @@
 ---
+- src: "/assets/images/gallery/susugaya/HHiw8FbaMAAumXb.jpg"
+  title: 煤ヶ谷10万トーク
+  tags:
+  - 煤ヶ谷
+  - 記念
+  date: '2026-05-05T17:46:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/shirabe/HHg-USCagAAbQix.jpg"
+  title: 「灼さんには内緒っすよ。」
+  tags:
+  - 調
+  date: '2026-05-05T09:25:00+09:00'
+  thumb_position: '50% 50%'
+- src: "/assets/images/gallery/shirabe/HHgY1NTa4AAe3l7.jpg"
+  title: 花畑の調
+  tags:
+  - 調
+  date: '2026-05-05T06:41:00+09:00'
+  thumb_position: '50% 24%'
+- src: "/assets/images/gallery/shirabe/HHgY1NTaMAA2pbb.jpg"
+  title: 花畑の調
+  tags:
+  - 調
+  date: '2026-05-05T06:41:00+09:00'
+  thumb_position: '50% 24%'
 - src: "/assets/images/gallery/shirabe/HHgS0TYagAAudsE.jpg"
   title: アイドルの調
   tags:
