@@ -181,6 +181,28 @@ img { max-width: 100%; display: block; }
 
 .site-main { min-height: 100vh; }
 
+.migration-notice {
+  border-bottom: 1px solid rgba(255,255,255,0.14);
+  background: #fff7d6;
+  color: #221b10;
+}
+.migration-notice .container {
+  padding: 16px 0;
+}
+.migration-notice p {
+  margin: 0;
+}
+.migration-notice-title {
+  font-weight: 800;
+}
+.migration-notice-link {
+  display: inline-flex;
+  margin-top: 8px;
+  color: #7b1736;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
 .hero {
   padding: 6px 0 50px;
 }

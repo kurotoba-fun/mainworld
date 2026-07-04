@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
+{% assign migrated_base_url = "https://kurotobari-fanclub.pages.dev" %}
+{% assign migrated_url = page.url | prepend: migrated_base_url %}
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ migrated_url }}">
+  <meta http-equiv="refresh" content="5; url={{ migrated_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body class="theme-{{ page.theme | default: 'mainworld' }}">
   {% include header.html %}
+  <aside class="migration-notice" role="status" aria-live="polite">
+    <div class="container">
+      <p class="migration-notice-title">黒帳ファンクラブは移転しました</p>
+      <p>5秒後に新しいサイトへ移動します。移動しない場合は、下のリンクからアクセスしてください。</p>
+      <a class="migration-notice-link" href="{{ migrated_url }}">新しい黒帳ファンクラブを開く</a>
+    </div>
+  </aside>
   <main class="site-main">
     {{ content }}
   </main>
